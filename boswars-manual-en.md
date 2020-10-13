@@ -24,13 +24,22 @@ The mini-map, in the upper right corner, gives you a glance of the full map. You
 ## selection
 
 A single unit can be selected by left-cliking on it, like in thie example:
+
 ![Single selection](pics/map/select1.png "Single selection")
 
 More than one unit can be selected by keeping the shift key pressed and left-clicking on the next ones.
 
 You can select all the units of a given type by double-clicking one of them:
+
 ![Selection by type](pics/map/select2.png "Selection by type")
 
 You can select a group of units by dragging a rectangle around them with the left mouse button:
+
 ![Rectangular selection](pics/map/select3.png "Selection by dragging a rectangle")
+
+When a unit is selected, in the right area of the map you can see two boxes: its current status (health and features) and a menu with several buttons, indicating the actions you can make it perform:
+
+![Unit status](pics/map/status-menu.png "Status and action menu of unit")
+
+Every menu item can be clicked, or the corresponding letter can be pressed on keyboard. A menu item can open another menu with more details. You can move the mouse over a button to get a description or the features of a given element.
 
