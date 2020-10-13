@@ -50,6 +50,8 @@ You can select a group of units by dragging a rectangle around them with the lef
 
 ![Rectangular selection](pics/map/select3.png "Selection by dragging a rectangle")
 
+(Note: there seems to be a limit to the maximum number of units selectable at the same time.)
+
 When a unit is selected, in the right area of the map you can see two boxes: its current status (health and features) and a menu with several buttons, indicating the actions you can make it perform. For example, when selecting an engineer:
 
 ![Unit status](pics/map/status-menu.png "Status and action menu of unit")
@@ -58,6 +60,6 @@ Every menu item can be clicked, or the corresponding letter can be pressed on ke
 
 ## Movement
 
-When one or more units are selected, they can be moved by right-clicking on an empty (and reachable) area. They will try to find the best path, everyone at its speed. Sometimes right-clicking on an object make the unit do the right thing with that object, depending on the unit. This will be explained when needed.
+When one or more units are selected, they can be moved by right-clicking on an empty (and reachable) area. They will try to find the best path, everyone at its speed. Sometimes right-clicking on an object, instead of an empty area, makes the unit do the right thing with that object, depending on the unit. This will be explained when needed.
 
 
