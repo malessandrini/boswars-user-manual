@@ -4,3 +4,4 @@
 
 # The map
 
+![Game map](pics/map/map.png "Example of game map")
