@@ -62,4 +62,34 @@ Every menu item can be clicked, or the corresponding letter can be pressed on ke
 
 When one or more units are selected, they can be moved by right-clicking on an empty (and reachable) area. They will try to find the best path, everyone at its speed. Sometimes right-clicking on an object, instead of an empty area, makes the unit do the right thing with that object, depending on the unit. This will be explained when needed.
 
+# Resources
+
+To build your increasing army, along with buildings, defenses, etc, you'll need two kind of resources: **energy** and **magma** (ore). At the top of the map there is an indicator of their quantities and production rate:
+
+![Energy-magma indicator](pics/map/energy-magma.png "Energy and magma indicator")
+
+For every kind of resource you can see the amount you are producing (plus sign), the amount you are consuming (minus sign) and the possible stocked supply (stocking is only possible if you have at least one vault).
+
+Reources are consumed when your engineers are building things or when your factories are producing units. If the supply is not enough for the demand, production of units and structures will slow down.
+
+Let's explain how to collect the two kind of resources.
+
+## Energy
+
+At a low level, energy can be harvested from trees. To do that, select an engineer, then in the menu at right select "harvest" (or press H) and click on a tree. A faster way is selecting an engineer and right-clicking on a tree. When the tree is exhausted, the engineer will move to another tree, and so on.
+
+The standard and more efficient way of generating energy, though, is building power plants or nuclear power plants (see building structures). As soon as you have a limited income of energy and magma you can build one or more power plants and have an unlimited quantity of energy. For this reason energy is not a big problem in the game's economy.
+
+## Magma
+
+At a low level, magma can be harvested from rocks. You can use the same commands to make engineers harvest rocks or rock fields. This will last for a limited amount of time, until all the rocks in an area are exhausted.
+
+The more effective way is finding magma spots (also called "hot spots") and build a magma pump on it. The pump will provide a steady flow of magma. To do that, select an engineer, than select "Build" in the menu at right (or press B), then "Magma pump" (M) in the submenu, finally click on the magma spot to start construction. A faster way is selecting an engineer and right-clicking on a magma spot.
+
+Magma spots are often rare, and rocks have a limited duration, so magma is often the biggest problem in managing resources. Be sure to look for new magma spots as soon as you expand your dominion.
+
+(You can even get magma by harvesting existing structures, including your own ones, but that's very inefficient.)
+
+
+
 
