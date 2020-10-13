@@ -1,2 +1,5 @@
 # Bos Wars user manual
-Comprehensive user manual for Bos Wars game
+
+English: [boswars-manual-en.md](boswars-manual-en.md)
+
+A non-official, comprehensive user manual for [Bos Wars](https://www.boswars.org/) game.
