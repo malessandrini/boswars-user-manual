@@ -17,7 +17,7 @@ You can scroll the map in the four directions by moving the mouse near the four 
 
 ![Mini-map](pics/map/minimap.png "Example of mini-map")
 
-The mini-map, in the upper right corner, gives you a glance of the full map. You can move rapidly through the map by clicking and dragging in the mini-map.
+The mini-map, in the upper right corner, gives you a glance of the full map. You can move rapidly through the map by clicking and dragging in the mini-map. Dots of different colors indicate different kind of objects, for example green is your units, blue is enemy's structures, purple is magma spots.
 
 ## In-game menu
 
