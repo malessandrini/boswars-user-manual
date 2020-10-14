@@ -4,7 +4,7 @@
 
 # Introduction
 
-[Bos Wars](https://www.boswars.org/) is a free-software real-time strategy (RTS) game. In an RTS game you usually must conquer the whole "world" in a given level, destroying all the enemies in the process. Generally you start in a small corner with very few resources, and you have to build your army (including defenses for your bases) in order to explore and conquer wider and wider areas and defy the enemies you encounter. In doing so you also have to manage the resources you need (energy, materials) and find ever new supplies of them. But beware, enemies in the dark meanwhile are working fast with the same goal, including destroying you, so you must adopt a good strategy and balance all your resources.
+[Bos Wars](https://www.boswars.org/) is a free-software real-time strategy (RTS) game. In an RTS game you usually have to conquer the whole "world" in a given level, destroying all the enemies in the process. Generally you start in a small corner with very few resources, and you have to build your army (including defenses for your bases) in order to explore and conquer wider and wider areas and defy the enemies you encounter. In doing so you also have to manage the resources you need (energy, materials) and find ever new supplies of them. But beware, enemies in the dark meanwhile are working fast with the same goal, including destroying you, so you must adopt a good strategy and balance all your resources.
 
 # The map
 
@@ -13,8 +13,8 @@
 The map is where the game takes place. You can distinguish three types af areas:
 
 - Full-bright areas: areas in direct sight from your units, that is where you have at least one of your units. Thanks to physical presence you can see what's actually happening. Every unit has a predefined sight range, usually not too wide.
-- Black areas: initially the most part, they are unknown areas where you never went, that will be discovered when reached. This feature can be disabled (so to see the full map from the beginning), but come on, that would not be funny, right?
-- Obfuscated areas (half-bright): areas where you previously went but now no more of your units are, for example if all the units in an area are killed. You can still see the area, but you cannot see what's currently happening anymore; you only have a "photo" of the last time you were there, so it may be full of enemies now, but you only can see it when you go there again. This feature is called "fog of war" and can be disabled, too, but again, enjoy the game as it's meant!
+- Black areas: initially the most part, they are unknown areas where you never went, that will be discovered when reached. This feature can be disabled (so to see the full map from the beginning), but that would not be funny, right?
+- Obfuscated areas (half-bright): areas where you previously went but now no more of your units are, for example if all the units in an area have been killed. You can still see the area, but you cannot see what's currently happening anymore; you only have a "photo" of the last time you were there, so it may be full of enemies now, but you only can see it when you go there again. This feature is called "fog of war" and can be disabled, too, but again, enjoy the game as it's meant!
 
 You can scroll the map in the four directions by moving the mouse near the four borders.
 
@@ -22,7 +22,7 @@ You can scroll the map in the four directions by moving the mouse near the four 
 
 ![Mini-map](pics/map/minimap.png "Example of mini-map")
 
-The mini-map, in the upper right corner, gives you a glance of the full map. You can move rapidly through the map by clicking and dragging in the mini-map. Dots of different colors indicate different kind of objects, for example green is your units, blue is enemy's structures, purple is magma spots.
+The mini-map, in the upper right corner, gives you a glance of the full map. You can move rapidly through the map by clicking and dragging in the mini-map. Dots of different colors indicate different kind of objects, for example green is your units, blue is enemy's structures, purple is magma spots. By building a radar (see "Building structures") you can reveal important objects in the mini-map, even in unexplored areas.
 
 ## In-game menu
 
@@ -34,19 +34,19 @@ Units (humans, vehicles, factories, facilities, etc) live on the map, unless the
 
 ![Engineer](pics/units/engineer.png "Engineer")
 
-This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can [build structures](#building-structures) and [harvest resources](#resources), and so we'll talk about him/her in various places throghout this document. As you can see, units show a bar with their current health (when not full), when it's empy the unit will die.
+This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can [build structures](#building-structures) and [harvest resources](#resources), and so we'll talk about it in various places throghout this document. As you can see, units show a bar with their current health (when not full). When it's empy the unit will die.
 
 # Basic actions: selection and movement
 
 ## Selection
 
-A single unit can be selected by left-cliking on it, like in thie example:
+A single unit can be selected by left-cliking on it, like in this example:
 
 ![Single selection](pics/map/select1.png "Single selection")
 
 More than one unit can be selected by keeping the shift key pressed and left-clicking on the next ones.
 
-You can select all the units of a given type by double-clicking one of them:
+You can select all the units of a given type by double-clicking on one of them:
 
 ![Selection by type](pics/map/select2.png "Selection by type")
 
@@ -104,7 +104,7 @@ Magma spots are often rare, and rocks have a limited duration, so magma is often
 
 # Building structures
 
-Fixed structures are built by engineers. These structures include generic facilities, defense weapons and factories which, in turn, will build fighting units.
+Fixed structures are built by engineers. These structures include generic facilities, defensive weapons and factories which, in turn, will build fighting units.
 
 Due to its importance, we will describe now the engineer in detail.
 
@@ -156,7 +156,7 @@ Built on top of a magma spot, it produces a fixed amount of magma. See Resources
 
 ![Radar](pics/structs/radar.png "Radar")
 
-The radar can give you a sight range in a given area and, more importantly, it can reveal important spots in the mini-map, even in unexplored areas. For this reason it's better to have one of them.
+The radar can give you a sight range in a given area and, more importantly, it can reveal important spots in the mini-map, even in unexplored areas. This allows targeting remote structures with long-range weapons. For those reasons it's better to have one of them.
 
 ### Camera ("C")
 
@@ -189,15 +189,23 @@ It "produces" human fighter of various strength, plus the engineers. Details in 
 
 ### Hospital ("H")
 
+![Hospital](pics/structs/hospital.png "Hospital")
+
 ### Vehicle factory ("V")
+
+![Vehicle factory](pics/structs/vehicle-factory.png "Vehicle factory")
 
 It produces fighting vehicles, like tanks for example. Details in the following section.
 
 ### Shipyard ("S")
 
+![Shipyard](pics/structs/shipyard.png "Shipyard")
+
 It produces water vehicles that can travel and fight in water. A shipyard must be built near water.
 
 ### Aircraft factory ("A")
+
+![Aircraft factory](pics/structs/aircraft-factory.png "Aircraft factory")
 
 It produces aerial vehicles, that can reach every point of the map to explore or fight.
 
@@ -208,19 +216,27 @@ It produces aerial vehicles, that can reach every point of the map to explore or
 
 ### Gun turret ("G")
 
+![Gun turret](pics/structs/gun-turret.png "Gun turret")
+
 It shoots enemies as soon as they are in its range. Useful to create a defensive border around your base.
 
 ### Big gun turret ("B")
+
+![Bin gun turret](pics/structs/big-gun-turret.png "Big gun turret")
 
 Like the gun turret, but more powerful.
 
 ### Cannon ("C")
 
+![Cannon](pics/structs/cannon.png "Cannon")
+
 It shoots at a very long range and it's quite powerful, usually you are hit by one of those before you can even see it (its shot looks like a light blue fireball). On the other hand it takes long to recharge and it's not very precise, especially on moving targets. For those reasons it can be seen more like an offensive weapon. Together with a radar, it can target enemy units even in unexplored areas.
 
 ### Missile silo ("M")
 
-It can launch very powerful nuclear missiles to every target on the map, but it's very expensive to build and recharge.
+![Missile silo](pics/structs/missile-silo.png "Missile silo")
+
+It can launch very powerful nuclear missiles to every target on the map, but it's very expensive to build and recharge. Missiles, too, can take advantage of targets revealed by the radar.
 
 Note:
 
@@ -228,7 +244,7 @@ destroy trees
 
 copyright
 
-
+harvester
 
 
 
