@@ -1,3 +1,7 @@
+# Index
+
+
+
 # Introduction
 
 [Bos Wars](https://www.boswars.org/) is a free-software real-time strategy (RTS) game. In an RTS game you usually must conquer the whole "world" in a given level, destroying all the enemies in the process. Generally you start in a small corner with very few resources, and you have to build your army (including defenses for your bases) in order to explore and conquer wider and wider areas and defy the enemies you encounter. In doing so you also have to manage the resources you need (energy, materials) and find ever new supplies of them. But beware, enemies in the dark meanwhile are working fast with the same goal, including destroying you, so you must adopt a good strategy and balance all your resources.
@@ -30,7 +34,7 @@ Units (humans, vehicles, factories, facilities, etc) live on the map, unless the
 
 ![Engineer](pics/units/engineer.png "Engineer")
 
-This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can build structures and harvest resources, and so we'll talk about him/her in various places throghout this document. As you can see, units show a bar with their current health (when not full), when it's empy the unit will die.
+This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can [build structures](#building-structures) and [harvest resources](#resources), and so we'll talk about him/her in various places throghout this document. As you can see, units show a bar with their current health (when not full), when it's empy the unit will die.
 
 # Basic actions: selection and movement
 
