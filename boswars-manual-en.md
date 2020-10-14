@@ -1,6 +1,36 @@
 # Index
 
-
+- [Introduction](#introduction)
+- [The map](#the-map)
+  - [The mini-map](#the-mini-map)
+  - [In-game menu](#in-game-menu)
+  - [Units](#units)
+- [Basic actions: selection and movement](#basic-actions-selection-and-movement)
+  - [Selection](#selection)
+  - [Movement](#movement)
+- [Resources](#resources)
+  - [Energy](#energy)
+  - [Magma](#magma)
+- [Building structures](#building-structures)
+  - [The engineer](#the-engineer)
+  - [Basic structures](#basic-structures)
+    - [Vault](#vault)
+    - [Magma pump](#magma-pump)
+    - [Radar](#radar)
+    - [Camera](#camera)
+    - [Power plant](#power-plant)
+    - [Nuclear power plant](#nuclear-power-plant)
+  - [Unit structures](#unit-structures)
+    - [Training camp](#training-camp)
+    - [Hospital](#hospital)
+    - [Vehicle factory](#vehicle-factory)
+    - [Shipyard](#shipyard)
+    - [Aircraft factory](#aircraft-factory)
+  - [Defensive structures](#defensive-structures)
+    - [Gun turret](#gun-turret)
+    - [Big gun turret](#big-gun-turret)
+    - [Cannon](#cannon)
+    - [Missile silo](#missile-silo)
 
 # Introduction
 
