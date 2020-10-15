@@ -31,10 +31,35 @@
     - [Big gun turret](#big-gun-turret-b)
     - [Cannon](#cannon-c)
     - [Missile silo](#missile-silo-m)
+- Building units
+  - Units from training camp
+  - Units from hospital
+  - Units from vehicle factory
+  - Units from shipyard
+  - Units from aircraft factory
+- Fighting
+
+
+
+
+
+
+
+
+
 
 # Introduction
 
 [Bos Wars](https://www.boswars.org/) is a free-software real-time strategy (RTS) game. In an RTS game you usually have to conquer the whole "world" in a given level, destroying all the enemies in the process. Generally you start in a small corner with very few resources, and you have to build your army (including defenses for your bases) in order to explore and conquer wider and wider areas and defy the enemies you encounter. In doing so you also have to manage the resources you need (energy, materials) and find ever new supplies of them. But beware, enemies in the dark meanwhile are working fast with the same goal, including destroying you, so you must adopt a good strategy and balance all your resources.
+
+
+
+
+
+
+
+
+
 
 # The map
 
@@ -56,7 +81,7 @@ The mini-map, in the upper right corner, gives you a glance of the full map. You
 
 ## In-game menu
 
-By pressing F10 during the game, you can pause the game and access the menu with game-related actions, like saving, quitting or changing speed.
+By pressing F10 during the game, you can pause the game and access the menu with game-related actions, like saving, quitting or changing speed. Function keys associated to submenus (F5, F9, etc.) can be pressed to access those submenus directly. Pay attention to the Help submenu (F1), it lists a lot of keyboard shortcuts and general hints that can give you useful advanced improvements, not always listed in this document.
 
 ## Units
 
@@ -65,6 +90,15 @@ Units (humans, vehicles, factories, facilities, etc) live on the map, unless the
 ![Engineer](pics/units/engineer.png "Engineer")
 
 This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can [build structures](#building-structures) and [harvest resources](#resources), and so we'll talk about it in various places throghout this document. As you can see, units show a bar with their current health (when not full). When it's empy the unit will die.
+
+
+
+
+
+
+
+
+
 
 # Basic actions: selection and movement
 
@@ -95,6 +129,15 @@ Every action in the menu can be clicked, or the corresponding letter can be pres
 ## Movement
 
 When one or more units are selected, they can be moved by right-clicking on an empty (and reachable) area. They will try to find the best path, everyone at its speed. Sometimes right-clicking on an object, instead of an empty area, makes the unit do the right thing with that object, depending on the unit. This will be explained when needed.
+
+
+
+
+
+
+
+
+
 
 # Resources
 
@@ -132,6 +175,15 @@ Magma spots are often rare, and rocks have a limited duration, so magma is often
 
 (You can even get magma by harvesting existing structures, including your own ones, but that's very inefficient.)
 
+
+
+
+
+
+
+
+
+
 # Building structures
 
 Fixed structures are built by engineers. These structures include generic facilities, defensive weapons and factories which, in turn, will build fighting units.
@@ -161,6 +213,8 @@ Construction will take some time, a bar indicates its progress. The bar disappea
 An engineer can also repair a damaged object, or continue its construction if it was not finished to build. To do so, the fastest way is selecting an engineer and right-clicking on the object.
 
 You can assign more engineers to build/repair an object if you want to accelerate the process; to do so, select other engineers and right-click on the object that the first engineer is already working on.
+
+If an engineer is building something and you give it a new order, it will interrupt the current assignment. But you can queue more jobs for an engineer by pressing the shift keyboard: queued jobs will be executed in order. Another useful shortcut is pressing Alt-I to find an idle engineer.
 
 Finally, engineers can be produced like every other unit if you need more of them. Specifically they are produced by the vault or the training camp (see below).
 
@@ -268,11 +322,95 @@ It shoots at a very long range and it's quite powerful, usually you are hit by o
 
 It can launch very powerful nuclear missiles to every target on the map, but it's very expensive to build and recharge. Missiles, too, can take advantage of targets revealed by the radar.
 
+
+
+
+
+
+
+
+
+
+# Building units
+
+Once you have built a factory for a given unit, as seen in previous section, you can tell that factory to start producing units, chosen among the ones available in that specific factory.
+
+The mechanics of producing units is the same for all the factories, so it will be explained in the first case only.
+
+
+## Units from training camp
+
+## Units from hospital
+
+The hospital can only produce the medic, which can heal damaged units, but needs time to recharge after every intervention.
+
+## Units from vehicle factory
+
+## Units from shipyard
+
+## Units from aircraft factory
+
+
+
+
+
+
+
+
+
+
+# Fighting
+
+When your units get within range of enemy units or structures, they will start to shot them without specific user's intervention. They will even move partially forward and backward to better fight back, according to their attack range. If you want them to attack a specific target first, you can select them and left-click on the target expressely (this is a shortcut so you don't need to invoke the Attack action directly). You can also destroy other objects that are not enemies, like for example trees if they're in your way, buy tou have to invoke the Attack action expressely in this case (simply press "A"). You can even destroy your own units!
+
+Hint: if your units are moving to a specific destination and they are approached by enemies during the way, you'll find that they will not fight back while moving. In that case you can make them stop by pressing "S" as a shortcut (while they're selected) so that they will start fighting.
+
+
+
+
+
+
+
+
+
+x
+# Strategy hints
+
+These are a series of generic hints that are not meant to be authoritative, but more of an help for people playing Bos Wars for the first time. You'll likely end up playing according to your preferences and your experience.
+
+First of all ensure you have a minimum flow of energy and magma. Some levels start with some facilities already built. If not, make engineers harvest rocks and/or trees, and if you have magma spots, build some magma pumps first. In doing so of course explore the immediate proximity of your base. You have some engineers when you start a level, you can produce more of them if you have a vault or training camp (or if you build them). Three engineers is a good number.
+
+With the first energy and magma income, build some power plants, so to have a good amount of energy for the near future.
+
+Build a radar (doesn't matter where), it's very cheap and will reveal important information in the mini-map.
+
+When you have a good amount of energy and magma, start planning what units to build. Enemies are not sleeping, so you don't have to waste your time. So build a couple of factories, even of the same type if you want to produce units faster. Meanwhile build some defensive weapons (gun turrets) in the borders of your base you deem more exposed, soon you may receive unwanted visits. Units being produced by factories can act as a defense line on their side.
+
+If you want to explore more areas around you, send some spare units but don't go too far, initially your few units are likely to be killed in seconds if they encounter a group of enemies.
+
+If you are harvesting rocks for magma, build as much as you can at this stage, taking advantage of the increased amount of magma before rocks are over.
+
+At a certain point you will feel bold enough to go out with your army. Be sure to always have a good number of units before going to explore the unknown. A big army will be able to kill a group of enemies rapidly and with no great losses, while if you have few units you will likely have them destroyed and you'll have to start from scratch, or worse have enemies penetrate your bases undisturbed.
+
+When you conquer new areas, try to secure them by defending the key transits. Ideally you can treat them like new bases along your way, building new magma pumps and factories after your army has destroyed all enemy structures.
+
+So in a few words: build, expand, destroy, repeat. In the end it's quite liberating!
+
+
+
+
+
+
+
+
+
 Note:
 
 destroy trees
 
 copyright
+
+interfaccia italiana
 
 harvester
 
