@@ -263,23 +263,27 @@ Like the power plant, but it produces more energy. See Resources.
 
 ## Unit structures
 
+Note: details about building units from the various unit structures (factories) will be given in the next section.
+
 ![Unit structure submenu](pics/structs/menu-unit.png "Unit structure submenu")
 
 ### Training camp ("C")
 
 ![Training camp](pics/structs/training-camp.png "Training camp")
 
-It "produces" human fighter of various strength, plus the engineers. Details in the following section.
+It "produces" human fighter of various strength, plus the engineers.
 
 ### Hospital ("H")
 
 ![Hospital](pics/structs/hospital.png "Hospital")
 
+The hospital only produces the "medic" unit.
+
 ### Vehicle factory ("V")
 
 ![Vehicle factory](pics/structs/vehicle-factory.png "Vehicle factory")
 
-It produces fighting vehicles, like tanks for example. Details in the following section.
+It produces fighting vehicles, like tanks for example.
 
 ### Shipyard ("S")
 
@@ -340,15 +344,39 @@ The mechanics of producing units is the same for all the factories, so it will b
 
 ## Units from training camp
 
+![Training camp menu](pics/units/menu-training.png "Training camp menu")
+
+The training camp can produce the following units:
+
+- Engineers
+- A, G, B, human-like fighters of increasing power (and cost). They are weaker and make less damage than vehicles, but can be produced fast and so they can represent a quick force to be deployed, especially in big numbers.
+
+To produce units from a factory, click on the desired unit to start its production. By clicking more units you can queue them so that the factory will produce them in order. For example in the following picture a series of A are queued for production, as you can see in the factory status box:
+
+![Units queued for production](pics/units/queued.png "Units queued for production")
+
+A bar near the factory indicates the progress of the production of every unit. Here you can see the same factory producing units, along with some of them already done:
+
+![Factory producing units](pics/units/producing.png "Factory producing units")
+
+
 ## Units from hospital
+
+![Hospital menu](pics/units/menu-hospital.png "Hospital menu")
 
 The hospital can only produce the medic, which can heal damaged units, but needs time to recharge after every intervention.
 
 ## Units from vehicle factory
 
+![Vehicle factory menu](pics/units/menu-vehicle.png "Vehicle factory menu")
+
 ## Units from shipyard
 
+![Shipyard menu](pics/units/menu-shipyard.png "Shipyard menu")
+
 ## Units from aircraft factory
+
+![Aircraft factory menu](pics/units/menu-aircraft.png "Aircraft factory menu")
 
 
 
@@ -361,7 +389,7 @@ The hospital can only produce the medic, which can heal damaged units, but needs
 
 # Fighting
 
-When your units get within range of enemy units or structures, they will start to shot them without specific user's intervention. They will even move partially forward and backward to better fight back, according to their attack range. If you want them to attack a specific target first, you can select them and left-click on the target expressely (this is a shortcut so you don't need to invoke the Attack action directly). You can also destroy other objects that are not enemies, like for example trees if they're in your way, buy tou have to invoke the Attack action expressely in this case (simply press "A"). You can even destroy your own units!
+When your units get within range of enemy units or structures, they will start to shot them without specific user's intervention. They will even move partially forward and backward to better fight back, according to their attack range. If you want them to attack a specific target first, you can select them and left-click on the target expressely (this is a shortcut so you don't need to invoke the Attack action directly). You can also destroy other objects that are not enemies, like for example trees if they're in your way, buy you have to invoke the Attack action expressely in that case (simply press "A"). You can even destroy your own units!
 
 Hint: if your units are moving to a specific destination and they are approached by enemies during the way, you'll find that they will not fight back while moving. In that case you can make them stop by pressing "S" as a shortcut (while they're selected) so that they will start fighting.
 
@@ -373,7 +401,7 @@ Hint: if your units are moving to a specific destination and they are approached
 
 
 
-x
+
 # Strategy hints
 
 These are a series of generic hints that are not meant to be authoritative, but more of an help for people playing Bos Wars for the first time. You'll likely end up playing according to your preferences and your experience.
