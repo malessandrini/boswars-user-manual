@@ -31,13 +31,14 @@
     - [Big gun turret](#big-gun-turret-b)
     - [Cannon](#cannon-c)
     - [Missile silo](#missile-silo-m)
-- Building units
-  - Units from training camp
-  - Units from hospital
-  - Units from vehicle factory
-  - Units from shipyard
-  - Units from aircraft factory
-- Fighting
+- [Building units](#building-units)
+  - [Units from training camp](#units-from-training-camp)
+  - [Units from hospital](#units-from-hospital)
+  - [Units from vehicle factory](#units-from-vehicle-factory)
+  - [Units from shipyard](*units-from-shipyard)
+  - [Units from aircraft factory](#units-from-aircraft-factory)
+- [Fighting](#fighting)
+- [Strategy hints](#strategy-hints)
 
 
 
@@ -348,10 +349,10 @@ The mechanics of producing units is the same for all the factories, so it will b
 
 The training camp can produce the following units:
 
-- Engineers
-- A, G, B, human-like fighters of increasing power (and cost). They are weaker and make less damage than vehicles, but can be produced fast and so they can represent a quick force to be deployed, especially in big numbers.
+- Engineer
+- Assault unit, Grenadier, Bazoo: human-like fighters of increasing power (and cost). They are weaker and make less damage than vehicles, but can be produced fast and so they can represent a quick force to be deployed, especially in big numbers.
 
-To produce units from a factory, click on the desired unit to start its production. By clicking more units you can queue them so that the factory will produce them in order. For example in the following picture a series of A are queued for production, as you can see in the factory status box:
+To produce units from a factory, click on the desired unit to start its production. By clicking more units you can queue them so that the factory will produce them in order. For example in the following picture a series of Assault units are queued for production, as you can see in the factory status box:
 
 ![Units queued for production](pics/units/queued.png "Units queued for production")
 
@@ -359,25 +360,42 @@ A bar near the factory indicates the progress of the production of every unit. H
 
 ![Factory producing units](pics/units/producing.png "Factory producing units")
 
+The training camp (unlike all other factories) has a special command "Set new units tareget" ("N"), with which you can click on a point on the map to indicate where new units must gather after being built.
 
 ## Units from hospital
 
 ![Hospital menu](pics/units/menu-hospital.png "Hospital menu")
 
-The hospital can only produce the medic, which can heal damaged units, but needs time to recharge after every intervention.
+The hospital can only produce the Medic, which can heal damaged units, but needs time to recharge after every intervention.
 
 ## Units from vehicle factory
 
 ![Vehicle factory menu](pics/units/menu-vehicle.png "Vehicle factory menu")
 
+Available units are:
+
+- APC smolder: a transporter for other units. You can make units go in and out the transporter. They can fight while inside.
+- Harvester: its purpose is harvesting resources around, doing so more effectively than engineers, but it can be easily destroyed by enemies.
+- Buggy: lightweight and cheap armed vehicle, but not so strong.
+- Tank, Rocket Tank, Artil: tanks with varying power (and cost), more powerful in fighting, they also have a longer attack range so that they can shoot some type of enemies without being hit.
+
 ## Units from shipyard
 
 ![Shipyard menu](pics/units/menu-shipyard.png "Shipyard menu")
+
+Available units are:
+
+- Water Scout: unarmed vehicle meant for exploration.
+- Destroyer: armed water vehicle.
 
 ## Units from aircraft factory
 
 ![Aircraft factory menu](pics/units/menu-aircraft.png "Aircraft factory menu")
 
+Available units are:
+
+- Heli: the weakest aherial vehicle
+- Jet Fighter, Bomber, Chopper: aherial vehicles with varying degrees of attack range, damage and armor.
 
 
 
@@ -389,9 +407,9 @@ The hospital can only produce the medic, which can heal damaged units, but needs
 
 # Fighting
 
-When your units get within range of enemy units or structures, they will start to shot them without specific user's intervention. They will even move partially forward and backward to better fight back, according to their attack range. If you want them to attack a specific target first, you can select them and left-click on the target expressely (this is a shortcut so you don't need to invoke the Attack action directly). You can also destroy other objects that are not enemies, like for example trees if they're in your way, buy you have to invoke the Attack action expressely in that case (simply press "A"). You can even destroy your own units!
+When your units get within range of enemy units or structures, they will start to shot them without specific user's intervention. They will even move partially forward and backward to better fight back, according to their attack range. If you want them to attack a specific target first, you can select them and left-click on the target expressely (this is a shortcut so you don't need to invoke the Attack action directly). You can also destroy other objects that are not enemies, like for example trees if they're in your way, buy you have to invoke the Attack action expressely in that case (simply press "A") and then left-click on a target. You can even destroy your own units!
 
-Hint: if your units are moving to a specific destination and they are approached by enemies during the way, you'll find that they will not fight back while moving. In that case you can make them stop by pressing "S" as a shortcut (while they're selected) so that they will start fighting.
+Hint: if your units are moving towards a specific destination and they are approached by enemies during the way, you'll find that they will not fight back while moving. In that case you can make them stop by pressing "S" as a shortcut (while they're selected) so that they will start fighting.
 
 
 
@@ -441,6 +459,8 @@ copyright
 interfaccia italiana
 
 harvester
+
+weak hot spots
 
 
 
