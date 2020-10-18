@@ -1,3 +1,14 @@
+(Disclaimer: this is an independent project, author of this manual is not part of the game development team ([Bos Wars](https://www.boswars.org/) is (C) 2004-2013 by Tina Petersen Jensen, Francois Beerten et al., and realesed as free software under GPL v.2 license). As such 1) This work may not be 100% accurate, and 2) Game authors must not be bothered for problems in this manual.)
+
+
+
+
+
+
+
+
+
+
 # Index
 
 - [Introduction](#introduction)
@@ -35,7 +46,7 @@
   - [Units from training camp](#units-from-training-camp)
   - [Units from hospital](#units-from-hospital)
   - [Units from vehicle factory](#units-from-vehicle-factory)
-  - [Units from shipyard](*units-from-shipyard)
+  - [Units from shipyard](#units-from-shipyard)
   - [Units from aircraft factory](#units-from-aircraft-factory)
 - [Fighting](#fighting)
 - [Strategy hints](#strategy-hints)
@@ -69,8 +80,8 @@
 The map is where the game takes place. You can distinguish three types af areas:
 
 - Full-bright areas: areas in direct sight from your units, that is where you have at least one of your units. Thanks to physical presence you can see what's actually happening. Every unit has a predefined sight range, usually not too wide.
-- Black areas: initially the most part, they are unknown areas where you never went, that will be discovered when reached. This feature can be disabled (so to see the full map from the beginning), but that would not be funny, right?
-- Obfuscated areas (half-bright): areas where you previously went but now no more of your units are, for example if all the units in an area have been killed. You can still see the area, but you cannot see what's currently happening anymore; you only have a "photo" of the last time you were there, so it may be full of enemies now, but you only can see it when you go there again. This feature is called "fog of war" and can be disabled, too, but again, enjoy the game as it's meant!
+- Black areas: initially the most part, they are unknown areas where you never went, that will be discovered when reached. This feature can be disabled (so to see the full map from the beginning), but that would compromise the game dynamics.
+- Obfuscated areas (half-bright): areas where you previously went but now no more of your units are, for example if all the units in an area have been killed. You can still see the area, but you cannot see what's currently happening anymore; you only have a "photo" of the last time you were there, so it may be full of enemies now, but you only can see it when you go there again. This feature is called "fog of war" and can be disabled, too, but again that would take some interest away from the game.
 
 You can scroll the map in the four directions by moving the mouse near the four borders.
 
@@ -78,11 +89,11 @@ You can scroll the map in the four directions by moving the mouse near the four 
 
 ![Mini-map](pics/map/minimap.png "Example of mini-map")
 
-The mini-map, in the upper right corner, gives you a glance of the full map. You can move rapidly through the map by clicking and dragging in the mini-map. Dots of different colors indicate different kind of objects, for example green is your units, blue is enemy's structures, purple is magma spots. By building a radar (see "Building structures") you can reveal important objects in the mini-map, even in unexplored areas.
+The mini-map, in the upper right corner, gives you a glance of the full map. You can move rapidly through the map by clicking and dragging in the mini-map. Dots of different colors indicate different kind of objects, for example green is your units, blue is enemy units, purple is magma spots. By building a radar (see ["Building structures"](#building-structures)) you can reveal important objects in the mini-map, even in unexplored areas.
 
 ## In-game menu
 
-By pressing F10 during the game, you can pause the game and access the menu with game-related actions, like saving, quitting or changing speed. Function keys associated to submenus (F5, F9, etc.) can be pressed to access those submenus directly. Pay attention to the Help submenu (F1), it lists a lot of keyboard shortcuts and general hints that can give you useful advanced improvements, not always listed in this document.
+By pressing F10 during the game you can pause the game and access the menu with game-related actions, like saving, quitting or changing speed. Function keys associated to submenus (F5, F9, etc.) can be pressed to access those submenus directly. Pay attention to the Help submenu (F1), it lists a lot of keyboard shortcuts and general hints that can give you useful advanced improvements, not always listed in this document.
 
 ## Units
 
@@ -91,6 +102,10 @@ Units (humans, vehicles, factories, facilities, etc) live on the map, unless the
 ![Engineer](pics/units/engineer.png "Engineer")
 
 This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can [build structures](#building-structures) and [harvest resources](#resources), and so we'll talk about it in various places throghout this document. As you can see, units show a bar with their current health (when not full). When it's empy the unit will die.
+
+## Natural objects
+
+Landscape includes trees and rocks, that can be used to collect [resources](#resources). Trees can be destroyed by your armed units if they're in your way.
 
 
 
@@ -125,7 +140,7 @@ When a unit is selected, in the right area of the map you can see two boxes: its
 
 ![Unit status](pics/map/status-menu.png "Status and action menu of unit")
 
-Every action in the menu can be clicked, or the corresponding letter can be pressed on keyboard. A menu item can open another menu with more details. You can move the mouse over a button to get a description or the features of a given element. The actions will be explained for every unit.
+Every action in the menu can be clicked, or the corresponding letter can be pressed on keyboard. A menu item can open another menu with more details. You can move the mouse over a button to get a description of a given element. The possible actions will be explained for every unit.
 
 ## Movement
 
@@ -146,7 +161,7 @@ To build your increasing army, along with buildings, defenses, etc, you'll need 
 
 ![Energy-magma indicator](pics/map/energy-magma.png "Energy and magma indicator")
 
-For every kind of resource you can see the amount you are producing (plus sign), the amount you are consuming (minus sign) and the stocked supply (stocking is only possible if you have at least one vault).
+For every kind of resource you can see the amount you are producing (plus sign), the amount you are consuming (minus sign) and the stocked supply (stocking is only possible if you have at least one [vault](#vault-v)).
 
 Reources are consumed when your engineers are building things or when your factories are producing units. If the supply is not enough for the demand, production of units and structures will slow down.
 
@@ -158,23 +173,27 @@ At a low level, energy can be harvested from trees. To do that, select an engine
 
 ![Harvesting trees](pics/map/tree-harvest.png "An engineer harvesting a tree for energy")
 
-The standard and more efficient way of generating energy, though, is building power plants or nuclear power plants (see building structures). As soon as you have a minimum income of energy and magma you can build one or more power plants and have an unlimited quantity of energy. For this reason energy is not a big problem in the game's economy.
+The standard and more efficient way of generating energy, though, is building power plants or nuclear power plants (see [building structures](#building-structures)). As soon as you have a minimum income of energy and magma you can build one or more power plants and have an unlimited quantity of energy. For this reason energy is not a big problem in the game economy.
 
 ## Magma
 
-At a low level, magma can be harvested from rocks. You can use the same commands as trees to make engineers harvest rocks or rock fields:
+At a low level, magma can be harvested from rocks. You can use the same commands listed for trees to make engineers harvest rocks or rock fields:
 
 ![Rocks](pics/map/rocks.png "Rocks and rock fields")
 
-This will last for a limited amount of time, until all the rocks in an area are exhausted.
+That will last for a limited amount of time, until all the rocks in an area are exhausted.
 
 The more effective way is finding magma spots (also called "hot spots") and build a magma pump on it. The pump will provide a steady flow of magma. To do that, select an engineer, than select "Build" in the action menu (or press B), then "Magma pump" (M) in the submenu, and finally click on the magma spot to start construction. A faster way is selecting an engineer and right-clicking on a magma spot. Here is a magma spot alone and after a magma pump has been built on it:
 
 ![Magma spots](pics/map/magma.png "Magma spots and pumps")
 
+(there also exists a weaker magma spot, not shown here.)
+
 Magma spots are often rare, and rocks have a limited duration, so magma is often the biggest problem in managing resources. Be sure to look for new magma spots as soon as you expand your dominion. A good income of magma is the key to build a big army fast.
 
 (You can even get magma by harvesting existing structures, including your own ones, but that's very inefficient.)
+
+If you want to keep going on harvesting trees and rocks even later in the game, you can use an harvester (see [Building units](#building-units)), that is a specialized vehicle that can harvest resources more efficiently. YOu can give it orders just like you would do with engineers.
 
 
 
@@ -187,7 +206,7 @@ Magma spots are often rare, and rocks have a limited duration, so magma is often
 
 # Building structures
 
-Fixed structures are built by engineers. These structures include generic facilities, defensive weapons and factories which, in turn, will build fighting units.
+Fixed structures are built by engineers. Those structures include generic facilities, defensive weapons and factories which, in turn, will build fighting units.
 
 Due to its importance, we will describe now the engineer in detail.
 
@@ -197,7 +216,7 @@ Due to its importance, we will describe now the engineer in detail.
 
 An engineer can build fixed structures, as described above, can harvest resources in case of shortcoming (described previously) and repair things.
 
-To build a structure, select the engineer and then press one of the following action buttons (or press the matching key):
+To build a structure, select an engineer and then click one of the following action buttons (or press the matching key):
 
 - B (Build basic structures) to build generic facilities
 - U (Build unit structures) to build factories for fighting units
@@ -209,15 +228,15 @@ Once you have selected the desired structure (by clicking on it or pressing the 
 
 ![Engineer building a structure](pics/structs/engineer-building.png "An engineer building a structure")
 
-Construction will take some time, a bar indicates its progress. The bar disappear when the structure is complete, but reappears if it's damaged, to indicate its health level.
+Construction will take some time, a bar indicates its progress. The bar disappears when the structure is complete, but reappears if it's damaged, to indicate its health level.
 
 An engineer can also repair a damaged object, or continue its construction if it was not finished to build. To do so, the fastest way is selecting an engineer and right-clicking on the object.
 
 You can assign more engineers to build/repair an object if you want to accelerate the process; to do so, select other engineers and right-click on the object that the first engineer is already working on.
 
-If an engineer is building something and you give it a new order, it will interrupt the current assignment. But you can queue more jobs for an engineer by pressing the shift keyboard: queued jobs will be executed in order. Another useful shortcut is pressing Alt-I to find an idle engineer.
+If an engineer is building something and you give it a new order, it will interrupt the current assignment. But you can queue more jobs for an engineer by pressing the shift keyboard: queued jobs will be executed in order. Another useful shortcut is pressing Alt-I to automatically find an idle engineer.
 
-Finally, engineers can be produced like every other unit if you need more of them. Specifically they are produced by the vault or the training camp (see below).
+Finally, engineers can be produced like every other unit if you need more of them. Specifically they are produced by the [vault](#vault-v) or the [training camp](#training-camp-c) (see below).
 
 Hint: be sure to always have at least one engineer alive, or to have factories able to produce them, or you will not be able to build new objects and replace destroyed ones.
 
@@ -235,31 +254,31 @@ The vault can store energy and magma, so to stock surplus of them for later use,
 
 ![Magma pump](pics/structs/magma-pump.png "Magma pump")
 
-Built on top of a magma spot, it produces a fixed amount of magma. See Resources for a deeper explanation.
+Built on top of a magma spot, it produces a fixed amount of magma. See [resources](#resources) for a deeper explanation.
 
 ### Radar ("R")
 
 ![Radar](pics/structs/radar.png "Radar")
 
-The radar can give you a sight range in a given area and, more importantly, it can reveal important spots in the mini-map, even in unexplored areas. This allows targeting remote structures with long-range weapons. For those reasons it's better to have one of them.
+The radar can reveal important spots in the [mini-map](#the-mini-map), even in unexplored areas. This allows targeting remote structures with long-range weapons. For those reasons it's better to have one of them.
 
 ### Camera ("C")
 
 ![Camera](pics/structs/camera.png "Camera")
 
-Like the radar, the camera can give you a point of sight from the place where it's built.
+The camera can give you a point of sight from the place where it's built, so to have an up-to-date view of an area.
 
 ### Power plant ("P")
 
 ![Power plant](pics/structs/power.png "Power plant")
 
-It produces a fixed amount of energy. See Resources.
+It produces a fixed amount of energy. See [resources](#resources).
 
 ### Nuclear power plant ("N")
 
 ![Nuclear power plant](pics/structs/nuclear.png "Nuclear")
 
-Like the power plant, but it produces more energy. See Resources.
+Like the power plant, but it produces more energy. See [resources](#resources).
 
 
 ## Unit structures
@@ -272,7 +291,7 @@ Note: details about building units from the various unit structures (factories) 
 
 ![Training camp](pics/structs/training-camp.png "Training camp")
 
-It "produces" human fighter of various strength, plus the engineers.
+It "produces" human fighters of various strength, plus the engineers.
 
 ### Hospital ("H")
 
@@ -338,7 +357,7 @@ It can launch very powerful nuclear missiles to every target on the map, but it'
 
 # Building units
 
-Once you have built a factory for a given unit, as seen in previous section, you can tell that factory to start producing units, chosen among the ones available in that specific factory.
+Once you have built a factory for a given unit, as seen in the previous section, you can tell that factory to start producing units, chosen among the ones available for that specific factory.
 
 The mechanics of producing units is the same for all the factories, so it will be explained in the first case only.
 
@@ -349,10 +368,10 @@ The mechanics of producing units is the same for all the factories, so it will b
 
 The training camp can produce the following units:
 
-- Engineer
+- Engineer.
 - Assault unit, Grenadier, Bazoo: human-like fighters of increasing power (and cost). They are weaker and make less damage than vehicles, but can be produced fast and so they can represent a quick force to be deployed, especially in big numbers.
 
-To produce units from a factory, click on the desired unit to start its production. By clicking more units you can queue them so that the factory will produce them in order. For example in the following picture a series of Assault units are queued for production, as you can see in the factory status box:
+To produce units from a factory, select the factory and click on the desired unit to start its production. By clicking more units you can queue them so that the factory will produce them in order. For example in the following picture a series of assault units are queued for production, as you can see in the factory status box:
 
 ![Units queued for production](pics/units/queued.png "Units queued for production")
 
@@ -394,7 +413,7 @@ Available units are:
 
 Available units are:
 
-- Heli: the weakest aherial vehicle
+- Heli: the weakest aherial vehicle.
 - Jet Fighter, Bomber, Chopper: aherial vehicles with varying degrees of attack range, damage and armor.
 
 
@@ -407,7 +426,7 @@ Available units are:
 
 # Fighting
 
-When your units get within range of enemy units or structures, they will start to shot them without specific user's intervention. They will even move partially forward and backward to better fight back, according to their attack range. If you want them to attack a specific target first, you can select them and left-click on the target expressely (this is a shortcut so you don't need to invoke the Attack action directly). You can also destroy other objects that are not enemies, like for example trees if they're in your way, buy you have to invoke the Attack action expressely in that case (simply press "A") and then left-click on a target. You can even destroy your own units!
+When your units get within range of enemy units or structures, they will start to shoot them without specific user's intervention. They will even move partially forward and backward to better fight back, according to their attack range. If you want them to attack a specific target first, you can select them and left-click on the target expressely (this is a shortcut so you don't need to invoke the Attack action directly). You can also destroy other objects that are not enemies, like for example trees if they're in your way, buy you have to invoke the Attack action expressely in that case (simply press "A") and then left-click on a target. You can even destroy your own units!
 
 Hint: if your units are moving towards a specific destination and they are approached by enemies during the way, you'll find that they will not fight back while moving. In that case you can make them stop by pressing "S" as a shortcut (while they're selected) so that they will start fighting.
 
@@ -441,26 +460,3 @@ At a certain point you will feel bold enough to go out with your army. Be sure t
 When you conquer new areas, try to secure them by defending the key transits. Ideally you can treat them like new bases along your way, building new magma pumps and factories after your army has destroyed all enemy structures.
 
 So in a few words: build, expand, destroy, repeat. In the end it's quite liberating!
-
-
-
-
-
-
-
-
-
-Note:
-
-destroy trees
-
-copyright
-
-interfaccia italiana
-
-harvester
-
-weak hot spots
-
-
-
