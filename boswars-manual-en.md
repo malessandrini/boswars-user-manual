@@ -1,4 +1,4 @@
-(Disclaimer: this is an independent project, author of this manual is not part of the game development team ([Bos Wars](https://www.boswars.org/) is (C) 2004-2013 by Tina Petersen Jensen, Francois Beerten et al., and realesed as free software under GPL v.2 license). As such 1) This work may not be 100% accurate, and 2) Game authors must not be bothered for problems in this manual.)
+(Disclaimer: this is an independent project, author of this manual is not part of the game development team ([Bos Wars](https://www.boswars.org/) is (C) 2004-2013 by Tina Petersen Jensen, Francois Beerten et al., and released as free software under GPL v.2 license). As such 1) This work may not be 100% accurate, and 2) Game authors must not be bothered for problems in this manual.)
 
 
 
@@ -80,7 +80,7 @@
 The map is where the game takes place. You can distinguish three types af areas:
 
 - Full-bright areas: areas in direct sight from your units, that is where you have at least one of your units. Thanks to physical presence you can see what's actually happening. Every unit has a predefined sight range, usually not too wide.
-- Black areas: initially the most part, they are unknown areas where you never went, that will be discovered when reached. This feature can be disabled (so to see the full map from the beginning), but that would compromise the game dynamics.
+- Black areas: initially the most part, they are unknown areas where you never went, that will be discovered when reached. This feature can be disabled (so to see the full map from the beginning), but that would arguably compromise the game dynamics.
 - Obfuscated areas (half-bright): areas where you previously went but now no more of your units are, for example if all the units in an area have been killed. You can still see the area, but you cannot see what's currently happening anymore; you only have a "photo" of the last time you were there, so it may be full of enemies now, but you only can see it when you go there again. This feature is called "fog of war" and can be disabled, too, but again that would take some interest away from the game.
 
 You can scroll the map in the four directions by moving the mouse near the four borders.
@@ -101,7 +101,7 @@ Units (humans, vehicles, factories, facilities, etc) live on the map, unless the
 
 ![Engineer](pics/units/engineer.png "Engineer")
 
-This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can [build structures](#building-structures) and [harvest resources](#resources), and so we'll talk about it in various places throghout this document. As you can see, units show a bar with their current health (when not full). When it's empy the unit will die.
+This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can [build structures](#building-structures) and [harvest resources](#resources), and so we'll talk about it in various places throughout this document. As you can see, units show a bar with their current health (when not full). When it's empty the unit will die.
 
 ## Natural objects
 
@@ -120,11 +120,11 @@ Landscape includes trees and rocks, that can be used to collect [resources](#res
 
 ## Selection
 
-A single unit can be selected by left-cliking on it, like in this example:
+A single unit can be selected by left-clicking on it, like in this example:
 
 ![Single selection](pics/map/select1.png "Single selection")
 
-More than one unit can be selected by keeping the shift key pressed and left-clicking on the next ones.
+More than one unit can be selected by keeping the shift key pressed while clicking.
 
 You can select all the units of a given type by double-clicking on one of them:
 
@@ -163,9 +163,9 @@ To build your increasing army, along with buildings, defenses, etc, you'll need 
 
 For every kind of resource you can see the amount you are producing (plus sign), the amount you are consuming (minus sign) and the stocked supply (stocking is only possible if you have at least one [vault](#vault-v)).
 
-Reources are consumed when your engineers are building things or when your factories are producing units. If the supply is not enough for the demand, production of units and structures will slow down.
+Resources are consumed when your engineers are building things or when your factories are producing units. If the supply is not enough for the demand, production of units and structures will slow down or even stop.
 
-Let's explain how to collect the two kind of resources.
+Let's explain in greater detail how to collect the two kind of resources.
 
 ## Energy
 
@@ -183,17 +183,17 @@ At a low level, magma can be harvested from rocks. You can use the same commands
 
 That will last for a limited amount of time, until all the rocks in an area are exhausted.
 
-The more effective way is finding magma spots (also called "hot spots") and build a magma pump on it. The pump will provide a steady flow of magma. To do that, select an engineer, than select "Build" in the action menu (or press B), then "Magma pump" (M) in the submenu, and finally click on the magma spot to start construction. A faster way is selecting an engineer and right-clicking on a magma spot. Here is a magma spot alone and after a magma pump has been built on it:
+The more effective way is finding magma spots (also called "hot spots") and build magma pumps on them. A pump will provide a constant flow of magma. To do that, select an engineer, than select "Build" in the action menu (or press B), then "Magma pump" (M) in the submenu, and finally click on the magma spot to start construction. A faster way is selecting an engineer and right-clicking on a magma spot. Here is a magma spot alone and after a magma pump has been built on it:
 
 ![Magma spots](pics/map/magma.png "Magma spots and pumps")
 
 (there also exists a weaker magma spot, not shown here.)
 
-Magma spots are often rare, and rocks have a limited duration, so magma is often the biggest problem in managing resources. Be sure to look for new magma spots as soon as you expand your dominion. A good income of magma is the key to build a big army fast.
+Magma spots are often rare, and rocks have a limited duration, so magma is often the biggest problem in managing resources. Be sure to look for new magma spots as soon as you expand your domain. A good income of magma is the key to build a big army fast.
 
 (You can even get magma by harvesting existing structures, including your own ones, but that's very inefficient.)
 
-If you want to keep going on harvesting trees and rocks even later in the game, you can use an harvester (see [Building units](#building-units)), that is a specialized vehicle that can harvest resources more efficiently. You can give it orders just like you would do with engineers.
+If you want to keep going on harvesting trees and rocks even later in the game, you can use an harvester (see [Building units](#building-units)), that is a specialized vehicle that can harvest resources more efficiently. You can give it orders just like you would with engineers.
 
 
 
@@ -214,7 +214,7 @@ Due to its importance, we will describe now the engineer in detail.
 
 ![Engineer](pics/units/engineer.png "Engineer")
 
-An engineer can build fixed structures, as described above, can harvest resources in case of shortcoming (described previously) and repair things.
+An engineer can build fixed structures, as described above, can harvest [resources](#resources) in case of shortcoming (described previously) and repair things.
 
 To build a structure, select an engineer and then click one of the following action buttons (or press the matching key):
 
@@ -234,7 +234,7 @@ An engineer can also repair a damaged object, or continue its construction if it
 
 You can assign more engineers to build/repair an object if you want to accelerate the process; to do so, select other engineers and right-click on the object that the first engineer is already working on.
 
-If an engineer is building something and you give it a new order, it will interrupt the current assignment. But you can queue more jobs for an engineer by pressing the shift keyboard: queued jobs will be executed in order. Another useful shortcut is pressing Alt-I to automatically find an idle engineer.
+If an engineer is building something and you give it a new order, it will interrupt the current assignment. But you can queue more jobs for an engineer by pressing the shift keyboard while clicking: queued jobs will be executed in order. Another useful shortcut is pressing Alt-I to automatically find and select an idle engineer.
 
 Finally, engineers can be produced like every other unit if you need more of them. Specifically they are produced by the [vault](#vault-v) or the [training camp](#training-camp-c) (see below).
 
@@ -254,7 +254,7 @@ The vault can store energy and magma, so to stock surplus of them for later use,
 
 ![Magma pump](pics/structs/magma-pump.png "Magma pump")
 
-Built on top of a magma spot, it produces a fixed amount of magma. See [resources](#resources) for a deeper explanation.
+Built on top of a magma spot, it produces a constant amount of magma. See [resources](#resources) for a deeper explanation.
 
 ### Radar ("R")
 
@@ -357,7 +357,7 @@ It can launch very powerful nuclear missiles to every target on the map, but it'
 
 # Building units
 
-Once you have built a factory for a given unit, as seen in the previous section, you can tell that factory to start producing units, chosen among the ones available for that specific factory.
+Once you have built a factory for a given unit, as seen in the previous section, you can tell that factory to start producing units, chosen among the ones provided by that factory.
 
 The mechanics of producing units is the same for all the factories, so it will be explained in the first case only.
 
@@ -379,7 +379,7 @@ A bar near the factory indicates the progress of the production of every unit. H
 
 ![Factory producing units](pics/units/producing.png "Factory producing units")
 
-The training camp (unlike all other factories) has a special command "Set new units tareget" ("N"), with which you can click on a point on the map to indicate where new units must gather after being built.
+The training camp (unlike all other factories) has a special command "Set new units target" ("N"), with which you can click on a point on the map to indicate where new units must gather after being built.
 
 ## Units from hospital
 
@@ -394,7 +394,7 @@ The hospital can only produce the Medic, which can heal damaged units, but needs
 Available units are:
 
 - APC smolder: a transporter for other units. You can make units go in and out the transporter. They can fight while inside.
-- Harvester: its purpose is harvesting resources around, doing so more effectively than engineers, but it can be easily destroyed by enemies.
+- Harvester: its purpose is harvesting [resources](#resources) around, doing so more effectively than engineers, but it can be easily destroyed by enemies.
 - Buggy: lightweight and cheap armed vehicle, but not so strong.
 - Tank, Rocket Tank, Artil: tanks with varying power (and cost), more powerful in fighting, they also have a longer attack range so that they can shoot some type of enemies without being hit.
 
@@ -413,8 +413,8 @@ Available units are:
 
 Available units are:
 
-- Heli: the weakest aherial vehicle.
-- Jet Fighter, Bomber, Chopper: aherial vehicles with varying degrees of attack range, damage and armor.
+- Heli: the weakest aerial vehicle.
+- Jet Fighter, Bomber, Chopper: aerial vehicles with varying degrees of attack range, damage and armor.
 
 
 
@@ -426,7 +426,7 @@ Available units are:
 
 # Fighting
 
-When your units get within range of enemy units or structures, they will start to shoot them without specific user's intervention. They will even move partially forward and backward to better fight back, according to their attack range. If you want them to attack a specific target first, you can select them and left-click on the target expressely (this is a shortcut so you don't need to invoke the Attack action directly). You can also destroy other objects that are not enemies, like for example trees if they're in your way, buy you have to invoke the Attack action expressely in that case (simply press "A") and then left-click on a target. You can even destroy your own units!
+When your units get within range of enemy units or structures, they will start to shoot them without specific user's intervention. They will even move partially forward and backward to better fight back, according to their attack range. If you want them to attack a specific target first, you can select them and left-click on the target expressly (this is a shortcut so you don't need to invoke the Attack action directly). You can also destroy other objects that are not enemies, like for example trees if they're in your way, buy you have to invoke the Attack action expressly in that case (simply press "A") and then left-click on a target. You can even destroy your own units!
 
 Hint: if your units are moving towards a specific destination and they are approached by enemies during the way, you'll find that they will not fight back while moving. In that case you can make them stop by pressing "S" as a shortcut (while they're selected) so that they will start fighting.
 
@@ -441,13 +441,13 @@ Hint: if your units are moving towards a specific destination and they are appro
 
 # Strategy hints
 
-These are a series of generic hints that are not meant to be authoritative, but more of an help for people playing Bos Wars for the first time. You'll likely end up playing according to your preferences and your experience.
+These are a series of generic hints that are not meant to be authoritative, but more of an help for people playing Bos Wars for the first time. You'll likely end up playing according to your preferences and your experience. Remember to start with smaller maps.
 
-First of all ensure you have a minimum flow of energy and magma. Some levels start with some facilities already built. If not, make engineers harvest rocks and/or trees, and if you have magma spots, build some magma pumps first. In doing so of course explore the immediate proximity of your base. You have some engineers when you start a level, you can produce more of them if you have a vault or training camp (or if you build them). Three engineers is a good number.
+First of all ensure you have a minimum flow of energy and magma. Some levels start with some facilities already built. If not, make engineers harvest rocks and/or trees, and if you have magma spots, build magma pumps first. In doing so of course explore the immediate proximity of your base. You have some engineers when you start a level, you can produce more of them if you have a vault or training camp (or if you build them). Three engineers is a good number.
 
 With the first energy and magma income, build some power plants, so to have a good amount of energy for the near future.
 
-Build a radar (doesn't matter where), it's very cheap and will reveal important information in the mini-map.
+Build a radar (doesn't matter where), it's very cheap and will reveal important information in the [mini-map](#the-mini-map).
 
 When you have a good amount of energy and magma, start planning what units to build. Enemies are not sleeping, so you don't have to waste your time. So build a couple of factories, even of the same type if you want to produce units faster. Meanwhile build some defensive weapons (gun turrets) in the borders of your base you deem more exposed, soon you may receive unwanted visits. Units being produced by factories can act as a defense line on their side.
 
