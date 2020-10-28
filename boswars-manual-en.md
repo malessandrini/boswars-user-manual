@@ -157,7 +157,7 @@ You can select a group of units by dragging a rectangle around them with the lef
 
 (Note: there seems to be a limit to the maximum number of units selectable at the same time.)
 
-When a unit is selected, in the right area of the map you can see two boxes: its current status (health and features) and an action menu with several buttons, indicating the actions you can make it perform. For example, when selecting an engineer:
+When a unit is selected, on the right side of the map you can see two boxes: its current status (health and features) and an action menu with several buttons, indicating the actions you can make it perform. For example, when selecting an engineer:
 
 ![Unit status](pics/map/status-menu.png "Status and action menu of unit")
 
@@ -178,7 +178,7 @@ When one or more units are selected, they can be moved by right-clicking on an e
 
 # Resources
 
-To build your increasing army, along with buildings, defenses, etc, you'll need two kind of resources: **energy** and **magma** (ore). At the top of the map there is an indicator of their quantities and production rate:
+To build your increasing army, along with buildings, defenses, etc., you'll need two kind of resources: **energy** and **magma** (ore). At the top of the map there is an indicator of their quantities and production rate:
 
 ![Energy-magma indicator](pics/map/energy-magma.png "Energy and magma indicator")
 
