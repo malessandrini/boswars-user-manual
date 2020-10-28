@@ -1,4 +1,4 @@
-(Disclaimer: this is an independent project, author of this manual is not part of the game development team ([Bos Wars](https://www.boswars.org/) is (C) 2004-2013 by Tina Petersen Jensen, Francois Beerten et al., and released as free software under GPL v.2 license). As such 1) This work may not be 100% accurate, and 2) Game authors must not be bothered for problems in this manual.)
+(Disclaimer: this is an independent project, author of this manual is not part of the game development team ([Bos Wars](https://www.boswars.org/) is &copy; 2004-2013 by Tina Petersen Jensen, Francois Beerten et al., and released as free software under GPL v.2 license). As such 1) This work may not be 100% accurate, and 2) Game authors must not be bothered for problems in this manual.)
 
 
 
@@ -16,6 +16,7 @@
   - [The mini-map](#the-mini-map)
   - [In-game menu](#in-game-menu)
   - [Units](#units)
+  - [Natural objects](#natural-objects)
 - [Basic actions: selection and movement](#basic-actions-selection-and-movement)
   - [Selection](#selection)
   - [Movement](#movement)
@@ -81,7 +82,7 @@ The map is where the game takes place. You can distinguish three types af areas:
 
 - Full-bright areas: areas in direct sight from your units, that is where you have at least one of your units. Thanks to physical presence you can see what's actually happening. Every unit has a predefined sight range, usually not too wide.
 - Black areas: initially the most part, they are unknown areas where you never went, that will be discovered when reached. This feature can be disabled (so to see the full map from the beginning), but that would arguably compromise the game dynamics.
-- Obfuscated areas (half-bright): areas where you previously went but now no more of your units are, for example if all the units in an area have been killed. You can still see the area, but you cannot see what's currently happening anymore; you only have a "photo" of the last time you were there, so it may be full of enemies now, but you only can see it when you go there again. This feature is called "fog of war" and can be disabled, too, but again that would take some interest away from the game.
+- Obfuscated areas (half-bright): areas where you previously went but now no more of your units are, for example if all the units in an area have been destroyed. You can still see the area, but you cannot see what's currently happening anymore; you only have a "photo" of the last time you were there, so it may be full of enemies now, but you only can see it when you go there again. This feature is called "fog of war" and can be disabled, too, but again that would take some interest away from the game.
 
 You can scroll the map in the four directions by moving the mouse near the four borders.
 
@@ -89,19 +90,19 @@ You can scroll the map in the four directions by moving the mouse near the four 
 
 ![Mini-map](pics/map/minimap.png "Example of mini-map")
 
-The mini-map, in the upper right corner, gives you a glance of the full map. You can move rapidly through the map by clicking and dragging in the mini-map. Dots of different colors indicate different kind of objects, for example green is your units, blue is enemy units, purple is magma spots. By building a radar (see ["Building structures"](#building-structures)) you can reveal important objects in the mini-map, even in unexplored areas.
+The mini-map, in the upper right corner, gives you a glance of the full map. You can move rapidly through the map by clicking and dragging in the mini-map. Dots of different colors indicate different kind of objects, for example green is your units, blue is enemy units, purple is free magma spots. By building a radar (see ["Building structures"](#building-structures)) you can reveal important objects in the mini-map, even in unexplored areas.
 
 ## In-game menu
 
-By pressing F10 during the game you can pause the game and access the menu with game-related actions, like saving, quitting or changing speed. Function keys associated to submenus (F5, F9, etc.) can be pressed to access those submenus directly. Pay attention to the Help submenu (F1), it lists a lot of keyboard shortcuts and general hints that can give you useful advanced improvements, not always listed in this document.
+By pressing F10 during the game you can pause the game and access the menu with game-related actions, like saving, quitting or changing speed. Function keys associated to submenus (F5, F9, etc.) can be pressed to access those submenus directly. Pay attention to the Help submenu (F1), it lists a lot of keyboard shortcuts and general hints that can provide advanced improvements, not always listed in this document.
 
 ## Units
 
-Units (humans, vehicles, factories, facilities, etc) live on the map, unless they are attacked and deprived of all their health, in that case they are killed and disappear. For example the following is an engineer:
+Units (humans, vehicles, factories, facilities, etc.) live on the map, unless they are attacked and deprived of all their health, in that case they are killed and disappear. For example the following is an engineer:
 
 ![Engineer](pics/units/engineer.png "Engineer")
 
-This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can [build structures](#building-structures) and [harvest resources](#resources), and so we'll talk about it in various places throughout this document. As you can see, units show a bar with their current health (when not full). When it's empty the unit will die.
+This little yellow guy is a very important unit in the game. It cannot fight or defend itself, but it can [build structures](#building-structures) and [harvest resources](#resources), and so we'll talk about it in various places throughout this document. As you can see, units display a bar with their current health (when not full). When it's empty the unit will die.
 
 ## Natural objects
 
