@@ -12,6 +12,7 @@
 # Index
 
 - [Introduction](#introduction)
+- [Initial menu](#initial-menu)
 - [The map](#the-map)
   - [The mini-map](#the-mini-map)
   - [In-game menu](#in-game-menu)
@@ -74,11 +75,30 @@
 
 
 
+# Initial menu
+
+When starting the program you can see the initial menu. Items there are quite self-explanatory, so we will describe them briefly. There are features beyond the scope of this manual, like for example the map editor with which you can create new maps or modify existing ones.
+
+"Options" item allows you to set game options like video resolution, audio, game speed and so on.
+
+"Load game" is for resuming a game you previously saved.
+
+Finally "Start game" is for starting a new game. Once pressed you have to choose a map in the list (you can ignore campaigns initially). When you select a map you can see its details on the left side of the screen, particularly its size, for example 64x64 for smaller ones, up to 256x256. It's highly recommended to start with a small map it you're not so familiar with the game. Leave all the options as they are, at least until you are an expert player, and finally press "Start" to actually start the game.
+
+
+
+
+
+
+
+
+
+
 # The map
 
 ![Game map](pics/map/map.png "Example of game map")
 
-The map is where the game takes place. You can distinguish three types af areas:
+The map is where the game takes place. You can distinguish three types of areas:
 
 - Full-bright areas: areas in direct sight from your units, that is where you have at least one of your units. Thanks to physical presence you can see what's actually happening. Every unit has a predefined sight range, usually not too wide.
 - Black areas: initially the most part, they are unknown areas where you never went, that will be discovered when reached. This feature can be disabled (so to see the full map from the beginning), but that would arguably compromise the game dynamics.
