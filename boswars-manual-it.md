@@ -75,17 +75,17 @@
 
 # Menù iniziale
 
-All'avvio del programma c'è il menù iniziale, le cui voci sono abbastanza intuitive, perciò saranno descritte solo sommariamente.
+All'avvio del programma viene visualizzato il menù iniziale, le cui voci sono abbastanza intuitive, perciò saranno descritte solo sommariamente.
 
 Nota: l'interfaccia del menù è disponibile in varie lingue, tra cui l'italiano, selezionabili nella sezione "Opzioni" ("Options"). Tuttavia all'interno del gioco i vari oggetti sono denominati con il loro nome originale inglese, per cui nel seguito si utilizzeranno i nomi inglesi.
 
 Alcune funzionalità sono al di là dello scopo di questo manuale, come per esempio l'editor delle mappe che permette di creare nuovi livelli partendo da zero o modificando un livello esistente.
 
-Il pulsante "Opzioni" ("Options") permette di settare alcune impostazioni del gioco come la risoluzione video, l'audio, la velocità del gioco e così via.
+Il pulsante "Opzioni" ("Options") permette di settare alcune impostazioni del gioco come la risoluzione video, l'audio, la velocità e così via.
 
-"Carica" ("Load game") è per riprendere un gioco precedentemente salvato.
+"Carica" ("Load game") serve a riprendere un gioco precedentemente salvato.
 
-Infine "Inizia partita" ("Start game") permette di iniziare un nuovo gioco. Una volta premuto si può scegliere una delle mappe dalla lista a destra (inzialmente si possono ignorare le campagne ("campaigns"). Selezionando una mapppa si possono vederne i dettagli nella parte sinistra, in particolare le sue dimensioni, ad esempio 64x64 per le più piccole, fino a 256x256. Si consiglia vivamente di iniziare con le mappe più piccole se non si è ancora pratici con il gioco, e di lasciare tutte le opzioni al valore predefinito, almeno finché non si è un giocatore esperto. Premendo "Inizio" ("Start") si inizia il gioco vero e proprio.
+Infine "Inizia partita" ("Start game") permette di iniziare un nuovo gioco. Una volta premuto si può scegliere una delle mappe dalla lista a destra (inizialmente si possono ignorare le campagne). Selezionando una mapppa se ne possono vedere i dettagli nella parte sinistra, in particolare le sue dimensioni, ad esempio 64x64 per le più piccole, fino a 256x256. Si consiglia vivamente di iniziare con le mappe più piccole se non si è ancora pratici con il gioco, e di lasciare tutte le opzioni al valore predefinito, almeno finché non si è più esperti. Premendo "Inizio" ("Start") si inizia il gioco vero e proprio.
 
 
 
@@ -102,9 +102,9 @@ Infine "Inizia partita" ("Start game") permette di iniziare un nuovo gioco. Una 
 
 La mappa è dove si svolge il gioco. Si possono distinguere tre tipi di aree:
 
-- Aree pienamente illuminate: aree nel campo visivo delle nostre unità, cioè dove è presente almeno una nostra unità. Grazie alla presenza fisica è possibile vedere cosa sta succedendo in tempo reale. Ogni unità ha una propria distanza visiva, in genere non molto vasta.
+- Aree pienamente illuminate: aree nel campo visivo delle nostre unità, dove cioè è presente almeno una nostra unità. Grazie alla presenza fisica è possibile vedere cosa sta succedendo in tempo reale. Ogni unità ha una propria distanza visiva, in genere alquanto limitata.
 - Aree nere: inizialmente la maggior parte, sono aree dove il giocatore non è mai stato e che saranno scoperte una volta raggiunte. Questa caratteristica può essere disabilitata, in modo da vedere tutta la mappa dall'inizio, ma questo verosimilmente può compromettere le dinamiche del gioco.
-- Aree offuscate (parzialmente illuminate): aree dove il giocatore è stato in precedenza, ma che adesso non hanno più nostre unità nelle vicinanze, ad esempio se tutte le unità sono state distrutte. Si può ancora vedere l'area, ma non quello che sta avvenendo attualmente; si può vedere solo una "fotografia" dell'ultima volta che una nostra unità era lì, così che l'area potrebbe ora essere piena di nemici, ma possiamo vederlo solo se delle nostre unità vi ritornano. Questa caratteristica è chiamata "nebbia di guerra" ("fog of war") e anch'essa può essere disabilitata, ma anche in questo caso ciò potrebbe togliere interesse al gioco.
+- Aree offuscate (parzialmente illuminate): aree dove il giocatore è stato in precedenza, ma che adesso non hanno più nostre unità nelle vicinanze, ad esempio se tutte le unità sono state distrutte. Si può ancora vedere l'area, ma non quello che sta avvenendo attualmente; si può vedere solo una "fotografia" dell'ultima volta che una nostra unità era in zona, così che l'area potrebbe essere piena di nemici ma non è possibile vederli finché delle nostre unità non vi ritornano. Questa caratteristica è chiamata "nebbia di guerra" ("fog of war") e anch'essa può essere disabilitata, ma anche in questo caso ciò potrebbe togliere interesse al gioco.
 
 Si può far scorrere la mappa nelle quattro direzioni muovendo il mouse vicino ai quattro bordi.
 
@@ -112,7 +112,7 @@ Si può far scorrere la mappa nelle quattro direzioni muovendo il mouse vicino a
 
 ![Mini-mappa](pics/map/minimap.png "Esempio di mini-mappa")
 
-La mini-mappa, nell'angolo in alto a destra, dà una visione di insieme dell'intera mappa. Ci si può muovere rapidamente nella mappa cliccando e trascinando il mouse nella mini-mappa. Punti di diversi colori indicano differenti tipi di oggetti, ad esempio verde per le nostre unità, blu per quelle nemiche, magenta per sorgenti di magma libere. Costruendo un radar (si veda [Costruire strutture](#costruire-strutture)) si possono vedere tutti gli oggetti importanti nella mini-mappa, anche nelle zone inesplorate.
+La mini-mappa, nell'angolo in alto a destra, fornisce una visione di insieme dell'intera mappa. Ci si può muovere rapidamente nella mappa cliccando e trascinando il mouse nella mini-mappa. Punti di diversi colori indicano differenti tipi di oggetti, ad esempio verde per le nostre unità, blu per quelle nemiche, magenta per sorgenti di magma libere. Costruendo un radar (si veda [Costruire strutture](#costruire-strutture)) si possono vedere tutti gli oggetti importanti nella mini-mappa, anche nelle zone inesplorate.
 
 ## Menù di gioco
 
