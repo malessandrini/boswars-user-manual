@@ -85,7 +85,7 @@ Il pulsante "Opzioni" ("Options") permette di settare alcune impostazioni del gi
 
 "Carica" ("Load game") serve a riprendere un gioco precedentemente salvato.
 
-Infine "Inizia partita" ("Start game") permette di iniziare un nuovo gioco. Una volta premuto si può scegliere una delle mappe dalla lista a destra (inizialmente si possono ignorare le campagne). Selezionando una mapppa se ne possono vedere i dettagli nella parte sinistra, in particolare le sue dimensioni, ad esempio 64x64 per le più piccole, fino a 256x256. Si consiglia vivamente di iniziare con le mappe più piccole se non si è ancora pratici con il gioco, e di lasciare tutte le opzioni al valore predefinito, almeno finché non si è più esperti. Premendo "Inizio" ("Start") si inizia il gioco vero e proprio.
+Infine "Inizia partita" ("Start game") permette di iniziare un nuovo gioco. Una volta premuto si può scegliere una delle mappe dalla lista a destra (inizialmente si possono ignorare le campagne). Selezionando una mappa se ne possono vedere i dettagli nella parte sinistra, in particolare le sue dimensioni, ad esempio 64x64 per le più piccole, fino a 256x256. Si consiglia vivamente di iniziare con le mappe più piccole se non si è ancora pratici con il gioco, e di lasciare tutte le opzioni al valore predefinito, almeno finché non si è più esperti. Premendo "Inizio" ("Start") si inizia il gioco vero e proprio.
 
 
 
@@ -143,7 +143,31 @@ Il paesaggio include alberi e rocce che possono essere usati per raccogliere [ri
 
 ## Selezione
 
+Una singola unità può essere selezionata cliccando su di essa con il tasto sinistro, come in questo esempio:
+
+![Selezione singola](pics/map/select1.png "Selezione singola")
+
+Più unità possono essere selezionate tenendo premuto il tasto shift (maiuscole) mentre si clicca.
+
+Si possono selezionare tutte le unità di uno stesso tipo facendo doppio clic su una di esse:
+
+![Selezione per tipo](pics/map/select2.png "Selezione per tipo")
+
+Si può selezionare un gruppo di unità tracciando un rettangolo attorno ad esse con il tasto sinistro del mouse:
+
+![Selezione rettangolare](pics/map/select3.png "Selezione tracciando un rettangolo")
+
+(Nota: sembra esserci un limite al numero massimo di unità selezionabili contemporaneamente).
+
+Quando un'unità è selezionata, a destra della mappa si possono vedere due riquadri: il suo stato attuale (livello di salute e caratteristiche) e un menù di azioni con diversi pulsanti, corrispondenti alle azioni che è possibile far compiere all'unità. Per esempio selezionando un ingegnere:
+
+![Stato unità](pics/map/status-menu.png "Stato e menù azioni di un'unità")
+
+Si può cliccare su ogni azione, o premere il tasto corrispondente sulla tastiera. Un'azione può mostrare un altro menù con maggiori dettagli. Si può muovere il puntatore del mouse sopra un pulsante per avere una descrizione di un dato elemento. Per ogni unità nel seguito saranno descritte le possibili azioni.
+
 ## Movimento
+
+Quando una o più unità sono selezionate, queste possono essere spostate cliccando col tasto destro su una zona vuota (e raggiungibile) della mappa. Le unità cercheranno di trovare il percorso migliore, ognuna alla propria velocità. A volte cliccando con il tasto destro su un oggetto, invece che su un'area vuota, si può far compiere all'unità l'azione giusta per quell'oggetto, a seconda del tipo di unità. Quest'ultima modalità sarà spiegata quando necessario.
 
 
 
@@ -156,9 +180,43 @@ Il paesaggio include alberi e rocce che possono essere usati per raccogliere [ri
 
 # Risorse
 
+Per costruire il proprio crescente esercito, insieme alle strutture, alle difese, ecc., occorrono due tipi di risorse: **energia** e **magma** (minerali). Nella parte alta della mappa è presente un indicatore delle loro quantità e tasso di produzione:
+
+![Indicatore energia e magma](pics/map/energy-magma.png "Indicatore di energia e magma")
+
+Per ogni tipo di risorsa si può vedere la quantità che si sta producendo (segno +), la quantità che si sta consumando (segno -) e quella accumulata (accumulare riserve è possibile solo se si ha almeno un [vault](#vault-v)).
+
+Le risorse vengono consumate quando gli ingegneri costruiscono oggetti o quando le fabbriche producono unità. Se la quantità prodotta è minore della richiesta, la produzione di unità e strutture rallenta o si ferma completamente.
+
+Vediamo in maggiore dettaglio come raccogliere i due tipi di risorse.
+
 ## Energia
 
+A un basso livello l'energia può essere raccolta dagli alberi. A questo scopo si può selezionare un ingegnere e scegliere l'azione "Harvest" (o premere H) nel menù azioni, quindi cliccare su un albero. Un modo più veloce è selezionare un ingegnere e cliccare con il tasto destro su un albero (attenzione: un albero va selezionato cliccando sulla sua base). Quando l'albero è esaurito, l'ingegnere si sposta ad un altro albero, e così via. Ecco un ingegnere intento a raccogliere energia da un albero:
+
+![Raccogliere energia da alberi](pics/map/tree-harvest.png "Un ingegnere che raccoglie energia da un albero")
+
+Il modo standard e più efficiente per generare energia, tuttavia, è costruire una centrale elettrica ("power plant" o "nuclear power plant", si veda [costruire strutture](#costruire-strutture)). Non appena si ha un'entrata minima di energia e magma si possono costruire una o più centrali elettriche ed avere una quantità illimitata di energia. Per questo motivo l'energia non è un grosso problema nell'economia del gioco.
+
 ## Magma
+
+A un basso livello il magma può essere raccolto dalle rocce. Si può selezionare un ingegnere e usare gli stessi comandi visti per gli alberi per fargli raccogliere magma dalle rocce o dalle distese rocciose:
+
+![Rocce](pics/map/rocks.png "Rocce e distese rocciose")
+
+Le rocce durano per un tempo limitato, fino a che tutte quelle di un'area sono esaurite.
+
+Il modo più efficiente è trovare delle sorgenti di magma e costruire delle pompe per magma su di esse. Una pompa fornisce un flusso continuo di magma. A questo scopo si può selezionare un ingegnere e scegliere l'azione "Build" (o premere B) nel menù azioni, quindi "Magma pump" (M) nel sotto-menù, infine cliccare sulla sorgente di magma per iniziare la costruzione. Un modo più veloce è selezionare un ingegnere e cliccare con il tasto destro sulla sorgente di magma. Di seguito sono raffigurate una sorgente di magma libera e una su cui è stata costruita una pompa:
+
+![Sorgenti di magma](pics/map/magma.png "Sorgenti e pompe di magma")
+
+(esiste anche una sorgente di magma più debole, non raffigurata qui).
+
+Le sorgenti di magma sono spesso rare, e le rocce hanno una durata limitata, per cui il magma è spesso il problema maggiore nella gestione delle risorse. Assicuratevi di cercare nuove sorgenti non appena si espande il proprio dominio. Un buon flusso di magma è la chiave per costruire un esercito corposo velocemente.
+
+(È anche possibile ottenere magma riciclando strutture esistenti, incluse le proprie, ma è un metodo molto inefficiente).
+
+Se si vuole continuare a raccogliere risorse da alberi e rocce anche più avanti nel gioco, si può usare un harvester (si veda [costruire unità](#costruire-unità)), un veicolo specializzato nel raccogliere risorse in maniera più efficace. Si possono impartire ordini a tale veicolo come si fa con gli ingegneri.
 
 
 

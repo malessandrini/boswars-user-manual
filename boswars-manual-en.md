@@ -190,7 +190,7 @@ Let's explain in greater detail how to collect the two kind of resources.
 
 ## Energy
 
-At a low level, energy can be harvested from trees. To do that, select an engineer, then in the action menu select "harvest" (or press H) and click on a tree. A faster way is selecting an engineer and right-clicking on a tree (beware: a tree must be selected by clicking on its base). When the tree is exhausted, the engineer will move to another tree, and so on. Here's an engineer harvesting a tree:
+At a low level, energy can be harvested from trees. To do that, select an engineer, then in the action menu select "Harvest" (or press H) and click on a tree. A faster way is selecting an engineer and right-clicking on a tree (beware: a tree must be selected by clicking on its base). When the tree is exhausted, the engineer will move to another tree, and so on. Here's an engineer harvesting a tree:
 
 ![Harvesting trees](pics/map/tree-harvest.png "An engineer harvesting a tree for energy")
 
