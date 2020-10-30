@@ -253,13 +253,14 @@ Construction will take some time, a bar indicates its progress. The bar disappea
 
 An engineer can also repair a damaged object, or continue its construction if it was not finished to build. To do so, the fastest way is selecting an engineer and right-clicking on the object.
 
-You can assign more engineers to build/repair an object if you want to accelerate the process; to do so, select other engineers and right-click on the object that the first engineer is already working on.
+You can assign more engineers to build or repair an object if you want to accelerate the process (but increasing the use of resources); to do so, select other engineers and right-click on the object that the first engineer is already working on.
 
 If an engineer is building something and you give it a new order, it will interrupt the current assignment. But you can queue more jobs for an engineer by pressing the shift keyboard while clicking: queued jobs will be executed in order. Another useful shortcut is pressing Alt-I to automatically find and select an idle engineer.
 
 Finally, engineers can be produced like every other unit if you need more of them. Specifically they are produced by the [vault](#vault-v) or the [training camp](#training-camp-c) (see below).
 
 Hint: be sure to always have at least one engineer alive, or to have factories able to produce them, or you will not be able to build new objects and replace destroyed ones.
+
 
 ## Basic structures
 
