@@ -450,6 +450,10 @@ Le unità disponibili sono:
 
 # Combattimento
 
+Quando le proprie unità sono a portata di elementi nemici, esse inizieranno ad attaccarle senza necessità di un intervento specifico dell'utente. Si muoveranno anche parzialmente avanti e indietro per meglio rispondere al fuoco, a seconda della loro portata di attacco. Se si vuole prima attaccare un bersaglio specifico, si possono selezionare le unità e cliccare espressamente con il tasto sinistro sul bersaglio (questo evita di dover richiamare l'azione "Attack" esplicitamente). È anche possibile distruggere oggetti che non sono nemici, come ad esempio gli alberi se sono di ostacolo, ma in questo caso occorre richiamare l'azione "Attack" (o premere semplicemente il tasto "A") e cliccare sull'oggetto. È anche possibile distruggere le proprie unità!
+
+Suggerimento: se le unità si stanno muovendo verso una destinazione specifica e sono avvicinate da unità nemiche durante il percorso, esse non risponderanno al fuoco fintanto che si stanno muovendo. In tal caso si può farle fermare premendo il tasto "S" come scorciatoia (mentre sono selezionate) così che possano iniziare a combattere.
+
 
 
 
@@ -461,3 +465,22 @@ Le unità disponibili sono:
 
 # Consigli di strategia
 
+I seguenti sono una serie di suggerimenti generici da non intendere come regole, ma più come un aiuto per chi si avvicina a Bos Wars per la prima volta. Nel lungo periodo si tenderà a giocare secondo le proprie preferenze e la propria esperienza. Ricordatevi di iniziare con le mappe più piccole.
+
+Prima di tutto assicuratevi di avere un flusso minimo di energia e magma. In alcuni livelli si inizia con alcune strutture già esistenti, in caso contrario assegnate degli ingegneri a raccogliere risorse da rocce e/o alberi. Se ci sono delle sorgenti di magma, costruite subito delle pompe di magma. Durante queste operazioni, ovviamente, esplorate le immediate vicinanze della base. Si hanno a disposizione degli ingegneri all'inizio del livello, ma ne potete produrre altri se avete un vault o un training camp (o li costruite). Tre ingegneri è un buon numero.
+
+Con le prime quantità di energia e magma costruite delle centrali elettriche, in modo da avere una buona quantità di energia per il futuro.
+
+Costruite un radar (non importa dove), è molto economico e rivelerà importanti dettagli nella [mini-mappa](#mini-mappa).
+
+Quando avrete una buona quantità di energia e magma, pianificate quali unità produrre. I nemici non dormono, perciò non bisogna perdere tempo. Costruite quindi un paio di fabbriche, anche dello stesso tipo se volete produrre le unità più rapidamente. Nel frattempo costruite delle armi di difesa (torrette) lungo i bordi della base che ritenete più esposti, presto potreste ricevere visite indesiderate. Le unità prodotte dalle fabbriche possono fungere da linee di difesa dal proprio lato.
+
+Se volete esplorare aree maggiori intorno a voi, inviate alcune unità ma non troppo lontano, inizialmente con poche unità rischiate che vengano distrutte in pochi secondi se incontrano gruppi di nemici.
+
+Se state raccogliendo magma dalle rocce, costruite più che potete in questa fase, approfittando dell'afflusso maggiore di magma prima che le rocce si esauriscano.
+
+Ad un certo punto vi sentirete abbastanza forti da compiere delle uscite con le vostre armate. Assicuratevi di avere un buon numero di unità prima di esplorare l'ignoto. Un esercito numeroso può distruggere un gruppo di nemici velocemente e senza grosse perdite, mentre con poche unità potreste facilmente vederle distrutte e dover ricominciare da capo, o peggio permettere al nemico di penetrare nella vostra base indisturbato.
+
+Quando conquistate nuove aree, cercate di fortificarle difendendo gli accessi chiave. Idealmente potete trattarle come estensioni della vostra base mentre procedete, costruendovi nuove pompe di magma e fabbriche dopo che le vostre armate hanno distrutto tutte le strutture nemiche.
+
+Quindi in poche parole: costruite, espandetevi, distruggete, ricominciate. Alla fine è abbastanza liberatorio!
