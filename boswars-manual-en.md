@@ -239,9 +239,9 @@ An engineer can build fixed structures, as described above, can harvest [resourc
 
 To build a structure, select an engineer and then click one of the following action buttons (or press the matching key):
 
-- B (Build basic structures) to build generic facilities
-- U (Build unit structures) to build factories for fighting units
-- D (Build defensive structures) to build defensive weapons
+- B (Build basic structures) to build generic facilities.
+- U (Build unit structures) to build factories for fighting units.
+- D (Build defensive structures) to build defensive weapons.
 
 In each submenu you have the possible structures to be built, described later. Moving the mouse over them you can see a list of their features, plus the cost in energy and magma to build them (see pictures in the following sections). Usually elements in a submenu are ordered by importance, starting from cheaper but weaker units down to the most powerful (but more expensive) ones.
 

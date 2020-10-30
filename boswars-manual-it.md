@@ -241,9 +241,9 @@ Un ingegnere può costruire le varie strutture fisse, come accennato, può racco
 
 Per costruire una struttura, selezionare un ingegnere e cliccare su uno dei seguenti pulsanti azione (o premere il tasto corrispondente):
 
-- B (Build basic structures) per costruire strutture generiche
-- U (Build unit structures) per costruire fabbriche di unità da combattimento
-- D (Build defensive structures) per costruire armi di difesa
+- B (Build basic structures) per costruire strutture generiche.
+- U (Build unit structures) per costruire fabbriche di unità da combattimento.
+- D (Build defensive structures) per costruire armi di difesa.
 
 Ogni sotto-menù elenca le possibili strutture da costruire, descritte nel seguito. Muovendo il puntatore del mouse sopra ognuna si può vedere una lista delle sue caratteristiche, oltre al costo in energia e magma per la sua costruzione (si vedano le immagini nella prossima sezione). In genere gli elementi in un sotto-menù sono ordinati per importanza, dalle unità più economiche ma più deboli fino alle più potenti (ma più dispendiose).
 
@@ -257,7 +257,7 @@ Un ingegnere può anche riparare un oggetto danneggiato, o continuare la sua cos
 
 Si possono assegnare più ingegneri a costruire o riparare un oggetto se si vuole accelerare il processo (ma aumentando l'uso delle risorse); per far ciò si possono selezionare gli altri ingegneri e cliccare col tasto destro sull'oggetto su cui il primo ingegnere sta lavorando.
 
-Se un ingegnere sta costruendo qualcosa e gli viene impartito un nuovo ordine, esso interrompe il lavoro attuale. Si possono però accodare più lavori per uno stesso ingegnere premendo il tasto shift (maiuscole) mentre si clicca: in tal modo i vari lavori verranno eseguiti in successione. Un'altra scorciatoia utile è premere ALT-I per trovare e selezionare automaticamente un ingegnere libero.
+Se un ingegnere sta costruendo qualcosa e gli viene impartito un nuovo ordine, esso interromperà il lavoro attuale. Si possono però accodare più lavori per uno stesso ingegnere premendo il tasto shift (maiuscole) mentre si clicca: in tal modo i vari lavori verranno eseguiti in successione. Un'altra scorciatoia utile è premere ALT-I per trovare e selezionare automaticamente un ingegnere libero.
 
 Infine gli ingegneri possono essere prodotti come tutte le altre unità se ne servono di più. Nello specifico sono prodotti dal [vault](#vault-v) o dal [training camp](#training-camp-c) (si veda nel seguito).
 
@@ -266,7 +266,7 @@ Suggerimento: assicuratevi di avere almeno un ingegnere vivo, o di avere fabbric
 
 ## Strutture di base
 
-![sotto-menù basic structures](pics/structs/menu-basic.png "Sotto-menù basic structures")
+![Sotto-menù basic structures](pics/structs/menu-basic.png "Sotto-menù basic structures")
 
 ### Vault ("V")
 
@@ -284,13 +284,13 @@ Una pompa di magma, costruita su una sorgente di magma, produce un flusso costan
 
 ![Radar](pics/structs/radar.png "Radar")
 
-Il radar può rivelare la posizione di oggetti importanti nella [mini-mappa](#mini-mappa), anche in aree inesplorate. Questo permette di puntare strutture lontane con armi a lungo raggio. Per queste ragioni è consigliabile averne uno.
+Il radar può rivelare la posizione di oggetti importanti nella [mini-mappa](#mini-mappa), anche in aree inesplorate. Questo permette anche di puntare strutture lontane con armi a lungo raggio. Per queste ragioni è consigliabile averne uno.
 
 ### Camera ("C")
 
 ![Camera](pics/structs/camera.png "Camera")
 
-La camera può fornire una visuale dell'area in cui è costruita, così da avere una immagine aggiornata di quell'area.
+La camera può fornire una visuale dell'area in cui è costruita, così da avere un'immagine aggiornata di quell'area.
 
 ### Power plant ("P")
 
@@ -309,7 +309,7 @@ Come il power plant, ma produce più energia. Si veda [risorse](#risorse).
 
 Nota: i dettagli della costruzione di unità dalle varie strutture unità (fabbriche) sono forniti nel prossimo capitolo.
 
-![sotto-menù unit structures](pics/structs/menu-unit.png "Sotto-menù unit structures")
+![Sotto-menù unit structures](pics/structs/menu-unit.png "Sotto-menù unit structures")
 
 ### Training camp ("C")
 
@@ -343,7 +343,7 @@ La fabbrica di velivoli (aircraft factory) produce veicoli aerei che possono rag
 
 ## Strutture difensive
 
-![sotto-menù defensive structures](pics/structs/menu-defensive.png "Sotto-menù defensive structures")
+![Sotto-menù defensive structures](pics/structs/menu-defensive.png "Sotto-menù defensive structures")
 
 ### Gun turret ("G")
 
@@ -361,13 +361,13 @@ La torretta grande (big gun turret) è simile alla torretta, ma più potente.
 
 ![Cannon](pics/structs/cannon.png "Cannon")
 
-Il cannone (cannon) spara ad una grande distanza ed è abbastanza potente, tanto che in genere si è colpiti prima ancora di poterlo vedere (il suo colpo appare come una palla di fuoco azzurra). D'altra parte impiega molto tempo a ricaricarsi e non è molto preciso, specialmente con bersagli mobili. Per queste ragioni può essere visto più come un'arma offensiva che difensiva. Insieme la radar permette di colpire unità nemiche anche aree inesplorate.
+Il cannone (cannon) spara ad una grande distanza ed è abbastanza potente, tanto che in genere si è colpiti prima ancora di poterlo vedere (il suo colpo appare come una palla di fuoco azzurra). D'altra parte impiega molto tempo a ricaricarsi e non è molto preciso, specialmente con bersagli mobili. Per queste ragioni può essere visto più come un'arma offensiva che difensiva. Insieme al radar permette di colpire unità nemiche anche in aree inesplorate.
 
 ### Missile silo ("M")
 
 ![Missile silo](pics/structs/missile-silo.png "Missile silo")
 
-Il silo missili (missile silo) può lanciare missili nucleari molto potenti su ogni bersaglio nella mappa, ma la sua costruzione è molto costosa e impiega molto tempo a ricaricarsi. Anche i missili possono avvantaggiarsi dei bersagli rivelati dal radar.
+Il silo missili (missile silo) può lanciare missili nucleari molto potenti su ogni bersaglio nella mappa, ma la sua costruzione è molto costosa e impiega molto tempo a ricaricarsi. Anche i missili possono puntare ai bersagli rivelati dal radar.
 
 
 
@@ -379,11 +379,65 @@ Il silo missili (missile silo) può lanciare missili nucleari molto potenti su o
 
 
 # Costruire unità
+
+Una volta costruita una fabbrica per una determinata unità, come visto nelle sezioni precedenti, si può ordinare alla fabbrica di costruire delle unità, scelte tra quelle fornite dalla fabbrica.
+
+Il meccanismo di produzione delle unità è lo stesso per tutte le fabbriche, per cui sarà spiegato solo nel primo caso.
+
+
 ## Unità da training camp
+
+![Menù training camp](pics/units/menu-training.png "Menù training camp")
+
+Il training camp può produrre le seguenti unità:
+
+- Ingegnere.
+- Assault unit, Grenadier, Bazoo: combattenti di forma umana di potenza (e costo) crescente. Sono più vulnerabili e meno letali dei veicoli, ma possono essere prodotti velocemente e possono quindi rappresentare una forza da stanziare rapidamente, specialmente in grandi quantità.
+
+Per produrre unità da una fabbrica, selezionare la fabbrica e cliccare sull'unità che si desidera per iniziarne la produzione. Cliccando più unità è possibile accodarle in modo che la fabbrica le produca in serie. Per esempio nella figura seguente una serie di assault unit sono accodate per la produzione, come si può vedere dal riquadro di stato della fabbrica:
+
+![Unità accodate per la produzione](pics/units/queued.png "Unità accodate per la produzione")
+
+Una barra vicino alla fabbrica indica l'avanzamento della produzione di ogni unità. Nell'immagine seguente si può vedere la stessa fabbrica che sta producendo delle unità, assieme ad altre già terminate:
+
+![Fabbrica che produce unità](pics/units/producing.png "Fabbrica che produce unità")
+
+Il training camp (a differenza di tutte le altre fabbriche) include lo speciale comando "Set new units target" ("N"), che permette di cliccare su un punto della mappa per indicare dove le nuove unità prodotte devono raggrupparsi.
+
 ## Unità da hospital
+
+![Menù hospital](pics/units/menu-hospital.png "Menù hospital")
+
+L'hospital può produrre soltanto il Medico (Medic), che può curare le unità danneggiate, ma ha bisogno di tempo per ricaricarsi dopo ogni intervento.
+
 ## Unità da vehicle factory
+
+![Menù vehicle factory](pics/units/menu-vehicle.png "Menù vehicle factory")
+
+Le unità disponibili sono:
+
+- APC smolder: veicolo da trasporto per altre unità. Si possono caricare e scaricare delle unità dal veicolo. Le unità possono combattere mentre sono nel veicolo.
+- Harvester: il suo scopo è raccogliere [risorse](#risorse) in maniera più efficiente degli ingegneri, ma può essere facilmente distrutto dai nemici.
+- Buggy: veicolo armato leggero ed economico, ma non molto forte.
+- Tank, Rocket Tank, Artil: carri armati di varia potenza (e costo), più potenti in battaglia, hanno anche una portata di attacco maggiore in modo da poter colpire certi tipi di nemici senza esserne colpiti a loro volta.
+
 ## Unità da shipyard
+
+![Menù shipyard](pics/units/menu-shipyard.png "Menù shipyard")
+
+Le unità disponibili sono:
+
+- Water Scout: veicolo non armato con funzione esplorativa.
+- Destroyer: veicolo acquatico armato.
+
 ## Unità da aircraft factory
+
+![Menù aircraft factory](pics/units/menu-aircraft.png "Menù aircraft factory")
+
+Le unità disponibili sono:
+
+- Heli: il veicolo aereo più debole.
+- Jet Fighter, Bomber, Chopper: veicoli aerei con diversi gradi di portata, potenza di fuoco ed armatura.
 
 
 
