@@ -360,7 +360,7 @@ Like the gun turret, but more powerful.
 
 ![Cannon](pics/structs/cannon.png "Cannon")
 
-It shoots at a very long range and it's quite powerful, usually you are hit by one of those before you can even see it (its shot looks like a light blue fireball). On the other hand it takes long to recharge and it's not very precise, especially on moving targets. For those reasons it can be seen more like an offensive weapon. Together with a radar, it can target enemy units even in unexplored areas.
+It shoots at a very long range and it's quite powerful, usually you are hit by one of those before you can even see it (its shot looks like a light blue fireball). On the other hand it takes long to recharge and it's not very precise, especially on moving targets. For those reasons it can be better considered as an offensive weapon. Together with a radar, it can target enemy units even in unexplored areas.
 
 ### Missile silo ("M")
 
