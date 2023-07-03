@@ -214,7 +214,7 @@ Magma spots are often rare, and rocks have a limited duration, so magma is often
 
 (You can even get magma by harvesting existing structures, including your own ones, but that's very inefficient.)
 
-If you want to keep going on harvesting trees and rocks even later in the game, you can use an harvester (see [Building units](#building-units)), that is a specialized vehicle that can harvest resources more efficiently. You can give it orders just like you would with engineers.
+If you want to continue harvesting trees and rocks even later in the game, you can use a harvester (see [Building units](#building-units)), which is a specialized vehicle that can harvest resources more efficiently. You can give it orders just like you would with engineers.
 
 
 
