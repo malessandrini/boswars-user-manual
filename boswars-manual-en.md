@@ -161,7 +161,7 @@ When a unit is selected, on the right side of the map you can see two boxes: its
 
 ![Unit status](pics/map/status-menu.png "Status and action menu of unit")
 
-Every action in the menu can be clicked, or the corresponding letter can be pressed on keyboard. A menu item can open another menu with more details. You can move the mouse over a button to get a description of a given element. The possible actions will be explained for every unit.
+Every action in the menu can be clicked, or the corresponding letter can be pressed on the keyboard. A menu item can open another menu with more details. You can move the mouse over a button to get a description of a given element. The possible actions will be explained for every unit.
 
 ## Movement
 
@@ -255,7 +255,7 @@ An engineer can also repair a damaged object, or continue its construction if it
 
 You can assign more engineers to build or repair an object if you want to accelerate the process (but increasing the use of resources); to do so, select other engineers and right-click on the object that the first engineer is already working on.
 
-If an engineer is building something and you give it a new order, it will interrupt the current assignment. But you can queue more jobs for an engineer by pressing the shift keyboard while clicking: queued jobs will be executed in order. Another useful shortcut is pressing Alt-I to automatically find and select an idle engineer.
+If an engineer is building something and you give it a new order, it will interrupt the current assignment. But you can queue more jobs for an engineer by pressing the shift key while clicking: queued jobs will be executed in order. Another useful shortcut is pressing Alt-I to automatically find and select an idle engineer.
 
 Finally, engineers can be produced like every other unit if you need more of them. Specifically they are produced by the [vault](#vault-v) or the [training camp](#training-camp-c) (see below).
 
@@ -288,7 +288,7 @@ The radar can reveal important spots in the [mini-map](#the-mini-map), even in u
 
 ![Camera](pics/structs/camera.png "Camera")
 
-The camera can give you a point of sight from the place where it's built, so to have an up-to-date view of an area.
+The camera clears fog of war and provides an up-to-date view of a large radius around its location.
 
 ### Power plant ("P")
 
@@ -381,7 +381,7 @@ It can launch very powerful nuclear missiles to every target on the map, but it'
 
 Once you have built a factory for a given unit, as seen in the previous section, you can tell that factory to start producing units, chosen among the ones provided by that factory.
 
-The mechanics of producing units is the same for all the factories, so it will be explained in the first case only.
+The mechanics of producing units are the same for all the factories, so it will be explained in the first case only.
 
 
 ## Units from training camp
@@ -463,15 +463,15 @@ Hint: if your units are moving towards a specific destination and they are appro
 
 # Strategy hints
 
-These are a series of generic hints that are not meant to be authoritative, but more of an help for people playing Bos Wars for the first time. You'll likely end up playing according to your preferences and your experience. Remember to start with smaller maps.
+These are a series of generic hints that are not meant to be authoritative, but more of a help for people playing Bos Wars for the first time. You'll likely end up playing according to your preferences and your experience. Remember to start with smaller maps.
 
 First of all ensure you have a minimum flow of energy and magma. Some levels start with some facilities already built. If not, make engineers harvest rocks and/or trees, and if you have magma spots, build magma pumps first. In doing so of course explore the immediate proximity of your base. You have some engineers when you start a level, you can produce more of them if you have a vault or training camp (or if you build them). Three engineers is a good number.
 
-With the first energy and magma income, build some power plants, so to have a good amount of energy for the near future.
+With the first energy and magma income, build power plants so you'll gradually acquire a surplus of energy.
 
 Build a radar (doesn't matter where), it's very cheap and will reveal important information in the [mini-map](#the-mini-map).
 
-When you have a good amount of energy and magma, start planning what units to build. Enemies are not sleeping, so you don't have to waste your time. So build a couple of factories, even of the same type if you want to produce units faster. Meanwhile build some defensive weapons (gun turrets) in the borders of your base you deem more exposed, soon you may receive unwanted visits. Units being produced by factories can act as a defense line on their side.
+When you have a good amount of energy and magma, start planning what units to build. Enemies are not sleeping, so you don't want to waste your time. Build a couple of factories, even of the same type if you want to produce units faster. Meanwhile build some defensive weapons (gun turrets) in the borders of your base you deem more exposed, soon you may receive unwanted visits. Units being produced by factories can act as a defense line on their side.
 
 If you want to explore more areas around you, send some spare units but don't go too far, initially your few units are likely to be killed in seconds if they encounter a group of enemies.
 
